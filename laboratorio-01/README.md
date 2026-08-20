@@ -117,11 +117,20 @@ Identifique la información solicitada a continuación.
   --------------------- -----------
   URL                   
   https://www.itm.edu.co/wp-content/plugins/wp-post-modules/assets/js/jquery.marquee.min.js?ver=7.0.4
+
+
+
   Método HTTP           get
+
+
   Código de estado      200
+
   Host / dominio        www.itm.edu.co
+
   Tipo de recurso       js
+
   Tiempo de respuesta   28 ms
+  
 
 ## Flujo que se está observando
 
