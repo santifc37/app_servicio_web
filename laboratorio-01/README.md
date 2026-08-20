@@ -72,13 +72,17 @@ Complete la tabla:
 
   Recurso   Tipo   Dominio     Tamaño
   --------- ------ --------- --------
-                             
+04-Investigacion.gif | gif | www.itm.edu.co | 108kb
+rbtools.min.js?ver=6.7.40 | js | www.itm.edu.co | 166kb
+Icono-Accesibilidad-3.png | png | www.itm.edu.co | 3.6kb
+fa-solid-900.woff2 | font | www.itm.edu.co | 78.6kb
+joinchat.min.js?ver=6.3.2 | js | www.itm.edu.co | 11.8kb                               
                              
                              
                              
                              
 
-**Total de solicitudes observadas:** `_____`
+**Total de solicitudes observadas:** `__5___`
 
 ## Evidencia
 
@@ -88,10 +92,10 @@ Guarde una captura de la pestaña Network como:
 evidencias/network.png
 ```
 
-Inclúyala aquí:
+Inclúyala aquí:![alt text](../evidencias/network.png)
 
 ``` markdown
-![Recursos cargados por la aplicación](evidencias/network.png)
+![Recursos cargados por la aplicación](../evidencias/network.png)
 ```
 
 ### Análisis
