@@ -92,10 +92,10 @@ Guarde una captura de la pestaña Network como:
 evidencias/network.png
 ```
 
-Inclúyala aquí:![alt text](../evidencias/network.png)
+Inclúyala aquí:![alt text](evidencias/network.png)
 
 ``` markdown
-![Recursos cargados por la aplicación](../evidencias/network.png)
+![Recursos cargados por la aplicación](evidencias/network.png)
 ```
 
 ### Análisis
