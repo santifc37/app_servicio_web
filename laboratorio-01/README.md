@@ -303,7 +303,10 @@ Reemplace el siguiente bloque con su diagrama:
 
 ``` mermaid
 flowchart LR
-    Usuario --> Navegador [Boton de descarga] --> Servidor [Solicitud HTTP GET] --> Navegador [Respuesta 200 OK (Entrega archivo)] --> SistemaOperativo [Abre ventana para guardar el archivo]
+    A[Usuario] -->|Clic en botón| B[Navegador]
+    B -->|Solicitud HTTP GET| C[Servidor]
+    C -->|Respuesta 200 OK| B
+    B -->|Abre explorador| D[Sistema Operativo]
 ```
 
 ------------------------------------------------------------------------
