@@ -72,11 +72,11 @@ Complete la tabla:
 
   Recurso   Tipo   Dominio     Tamaño
   --------- ------ --------- --------
-04-Investigacion.gif | gif | www.itm.edu.co | 108kb
-rbtools.min.js?ver=6.7.40 | js | www.itm.edu.co | 166kb
-Icono-Accesibilidad-3.png | png | www.itm.edu.co | 3.6kb
-fa-solid-900.woff2 | font | www.itm.edu.co | 78.6kb
-joinchat.min.js?ver=6.3.2 | js | www.itm.edu.co | 11.8kb                               
+04-Investigacion.gif | gif | www.itm.edu.co | 108kb                                 
+rbtools.min.js?ver=6.7.40 | js | www.itm.edu.co | 166kb                               
+Icono-Accesibilidad-3.png | png | www.itm.edu.co | 3.6kb                               
+fa-solid-900.woff2 | font | www.itm.edu.co | 78.6kb                                  
+joinchat.min.js?ver=6.3.2 | js | www.itm.edu.co | 11.8kb                                                 
                              
                              
                              
@@ -102,7 +102,7 @@ Inclúyala aquí:![alt text](evidencias/network.png)
 
 **¿Por qué una sola URL puede generar múltiples solicitudes HTTP?**
 
-> Escriba aquí su respuesta.
+> Escriba aquí su respuesta. porque la url solo contiene un pequeño "marco" y al entrar empieza a solitar toda la informacion necesario para mostrar al usuario
 
 ------------------------------------------------------------------------
 
@@ -116,11 +116,12 @@ Identifique la información solicitada a continuación.
   Elemento              Resultado
   --------------------- -----------
   URL                   
-  Método HTTP           
-  Código de estado      
-  Host / dominio        
-  Tipo de recurso       
-  Tiempo de respuesta   
+  https://www.itm.edu.co/wp-content/plugins/wp-post-modules/assets/js/jquery.marquee.min.js?ver=7.0.4
+  Método HTTP           get
+  Código de estado      200
+  Host / dominio        www.itm.edu.co
+  Tipo de recurso       js
+  Tiempo de respuesta   28 ms
 
 ## Flujo que se está observando
 
@@ -140,7 +141,7 @@ Guarde una captura de los detalles de la solicitud como:
 evidencias/request.png
 ```
 
-Inclúyala en el informe:
+Inclúyala en el informe:![alt text](evidencias/request.png)
 
 ``` markdown
 ![Análisis de la solicitud HTTP](evidencias/request.png)
@@ -150,12 +151,12 @@ Inclúyala en el informe:
 
 **¿Qué recurso solicitó el navegador?**
 
-> Escriba aquí su respuesta.
+> Escriba aquí su respuesta. un javascript
 
 **¿Qué información permite determinar si la solicitud fue atendida
 correctamente?**
 
-> Escriba aquí su respuesta.
+> Escriba aquí su respuesta. code 200 que significa que ocurrió sin ningún problema
 
 ------------------------------------------------------------------------
 
@@ -180,13 +181,13 @@ Utilizando **Elementos / Elements**:
 
 ## Resultados
 
-**Elemento seleccionado:** `____________________________`
+**Elemento seleccionado:** `______Boton de descarga logo itm_____________`
 
-**Etiqueta HTML:** `____________________________`
+**Etiqueta HTML:** `__________<a>________________`
 
-**Contenido original:** `____________________________`
+**Contenido original:** `_________"Descarga"____________`
 
-**Modificación realizada:** `____________________________`
+**Modificación realizada:** `________"Evidencia txt"__________`
 
 El proceso observado puede representarse conceptualmente así:
 
@@ -206,7 +207,7 @@ Guarde la captura como:
 evidencias/dom.png
 ```
 
-Inclúyala aquí:
+Inclúyala aquí:![alt text](evidencias/dom.png)
 
 ``` markdown
 ![Inspección y modificación del DOM](evidencias/dom.png)
@@ -217,7 +218,7 @@ Inclúyala aquí:
 **¿La modificación realizada sobre el DOM alteró permanentemente la
 aplicación o los archivos almacenados en el servidor? Justifique.**
 
-> Escriba aquí su respuesta.
+> Escriba aquí su respuesta. No, ese cambió no es un SET. Es solo una modificación temporal al archivo html, al refrescar la pagina el servidor volverá a la normalidad
 
 ------------------------------------------------------------------------
 
@@ -240,12 +241,12 @@ Observe si aparece una nueva solicitud en Network.
 
   Elemento                       Resultado
   ------------------------------ -----------
-  Acción realizada               
-  ¿Generó una nueva solicitud?   
-  URL solicitada                 
-  Método HTTP                    
-  Código de estado               
-  Tipo de respuesta              
+  Acción realizada               Click al boton descargar
+  ¿Generó una nueva solicitud?   Si
+  URL solicitada                 data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M3.516 3.516c4.686-4.686 12.284-4.686 16.97 0s4.686 12.283 0 16.97a12 12 0 0 1-13.754 2.299l-5.814.735a.392.392 0 0 1-.438-.44l.748-5.788A12 12 0 0 1 3.517 3.517zm3.61 17.043.3.158a9.85 9.85 0 0 0 11.534-1.758c3.843-3.843 3.843-10.074 0-13.918s-10.075-3.843-13.918 0a9.85 9.85 0 0 0-1.747 11.554l.16.303-.51 3.942a.196.196 0 0 0 .219.22zm6.534-7.003-.933 1.164a9.84 9.84 0 0 1-3.497-3.495l1.166-.933a.79.79 0 0 0 .23-.94L9.561 6.96a.79.79 0 0 0-.924-.445l-2.023.524a.797.797 0 0 0-.588.88 11.754 11.754 0 0 0 10.005 10.005.797.797 0 0 0 .88-.587l.525-2.023a.79.79 0 0 0-.445-.923L14.6 13.327a.79.79 0 0 0-.94.23z'/%3E%3C/svg%3E
+  Método HTTP                    GET
+  Código de estado               200
+  Tipo de respuesta              svg+xml
 
 ## Ciclo de interacción
 
@@ -270,7 +271,7 @@ Guarde la captura como:
 evidencias/interaccion.png
 ```
 
-Inclúyala aquí:
+Inclúyala aquí:![alt text](evidencias/interaccion.png)
 
 ``` markdown
 ![Interacción observada en Network](evidencias/interaccion.png)
@@ -281,7 +282,7 @@ Inclúyala aquí:
 **Explique la relación entre la acción realizada por el usuario y la
 solicitud observada.**
 
-> Escriba aquí su respuesta.
+> Escriba aquí su respuesta.    Como la solicitud no te manda a otra pagina, solo a realizar la descarga de una imagen tiene sentido que su url sea tan "rara" y el GET solo te envia dicha imagen y el abre el explorador de archivos para guardar la imagen
 
 ------------------------------------------------------------------------
 
@@ -302,7 +303,10 @@ Reemplace el siguiente bloque con su diagrama:
 
 ``` mermaid
 flowchart LR
-    A[Construya aquí] --> B[su flujo observado]
+    Usuario->>Navegador [Boton de descarga] --> 
+    Navegador->>Servidor [Solicitud HTTP GET] --> 
+    Servidor->>Navegador [Respuesta 200 OK (Entrega archivo)] --> 
+    Navegador->>SistemaOperativo [Abre ventana para guardar el archivo]
 ```
 
 ------------------------------------------------------------------------
@@ -316,15 +320,15 @@ Clasifique sus hallazgos:
 
 ## Elementos observados directamente
 
--   
--   
--   
+-   Dominios
+-   Codigos de estado
+-   Tipo de recurso
 
 ## Elementos inferidos
 
--   
--   
--   
+-   La pagina buscó y leyó en sus servidores un archivos javascript para su funcionamiento
+-   Que el navegador envió una orden al sistema operativo para abrir la ventana de explorador de archivos
+-   Que el servidor ejecutó una consulta a una base de datos para verificar el recurso
 
 > No presente como observado un proceso interno que las herramientas del
 > navegador no permitan comprobar directamente.
@@ -335,9 +339,9 @@ Clasifique sus hallazgos:
 
 Redacte **tres conclusiones técnicas** derivadas de la práctica.
 
-1.  
-2.  
-3.  
+1.  limites de observacion con devtools, tenemos la informacion de url,codigo de estado,dominio pero ocn un limite en los procesos de backend
+2.  manipilacion dinamica del DOM con javascript, ya que permite modificar temporalmente las estructura, los estilos, los textos 
+3.  analisis e interpretacion de los codigos de estados, permite entender de forma inmediata la respuesta del servidor  si exitosa 200, recurso no encontrado 400 o 500 error del servidor
 
 Las conclusiones deben explicar lo aprendido a partir de la evidencia y
 no limitarse a describir las actividades realizadas.
