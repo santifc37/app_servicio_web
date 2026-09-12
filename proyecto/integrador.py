@@ -8,12 +8,16 @@ import requests
 
 URL_BASE = "https://appsweb.quantaiot.co"
 EQUIPO = "EQUIPO-02-APPSWEB" 
+
 def buscar_archivo(nombre_archivo):
     if os.path.exists(nombre_archivo):
         return nombre_archivo
     ruta_datos = os.path.join("datos", nombre_archivo)
     if os.path.exists(ruta_datos):
         return ruta_datos
+    ruta_datos_hermana = os.path.join("..", "datos", nombre_archivo)
+    if os.path.exists(ruta_datos_hermana):
+        return ruta_datos_hermana
     return None
 
 def cargar_datos():
