@@ -2335,7 +2335,7 @@
     "temperatura_c": 21.55,
     "humedad": 50.7,
     "viento_kmh": 21.85,
-    "fecha_hora": "2026-09-01T06:00:00",
+    "fecha_hora": "2026-09-01T06:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_1"
   },
@@ -2347,7 +2347,7 @@
     "temperatura_c": 19.28,
     "humedad": 51.9,
     "viento_kmh": 4.57,
-    "fecha_hora": "2026-09-01T06:45:00",
+    "fecha_hora": "2026-09-01T06:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_2"
   },
@@ -2359,7 +2359,7 @@
     "temperatura_c": 25.24,
     "humedad": 89.2,
     "viento_kmh": 15.84,
-    "fecha_hora": "2026-09-01T07:30:00",
+    "fecha_hora": "2026-09-01T07:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_3"
   },
@@ -2371,7 +2371,7 @@
     "temperatura_c": 21.1,
     "humedad": 117.5,
     "viento_kmh": 25.37,
-    "fecha_hora": "2026-09-01T08:15:00",
+    "fecha_hora": "2026-09-01T08:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_4"
   },
@@ -2383,7 +2383,7 @@
     "temperatura_c": 25.08,
     "humedad": 75.1,
     "viento_kmh": 14.48,
-    "fecha_hora": "2026-09-01T09:00:00",
+    "fecha_hora": "2026-09-01T09:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_5"
   },
@@ -2395,7 +2395,7 @@
     "temperatura_c": 18.11,
     "humedad": 62.0,
     "viento_kmh": 21.68,
-    "fecha_hora": "2026-09-01T09:45:00",
+    "fecha_hora": "2026-09-01T09:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_6"
   },
@@ -2407,7 +2407,7 @@
     "temperatura_c": 20.14,
     "humedad": 45.4,
     "viento_kmh": 26.59,
-    "fecha_hora": "2026-09-01T10:30:00",
+    "fecha_hora": "2026-09-01T10:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_7"
   },
@@ -2419,7 +2419,7 @@
     "temperatura_c": 27.48,
     "humedad": 74.2,
     "viento_kmh": 28.33,
-    "fecha_hora": "2026-09-01T11:15:00",
+    "fecha_hora": "2026-09-01T11:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_8"
   },
@@ -2431,7 +2431,7 @@
     "temperatura_c": 18.43,
     "humedad": 85.6,
     "viento_kmh": 24.99,
-    "fecha_hora": "2026-09-01T12:00:00",
+    "fecha_hora": "2026-09-01T12:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_9"
   },
@@ -2443,7 +2443,7 @@
     "temperatura_c": 25.44,
     "humedad": 82.9,
     "viento_kmh": 29.48,
-    "fecha_hora": "2026-09-01T12:45:00",
+    "fecha_hora": "2026-09-01T12:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_10"
   },
@@ -2455,7 +2455,7 @@
     "temperatura_c": 25.32,
     "humedad": 69.7,
     "viento_kmh": 7.54,
-    "fecha_hora": "2026-09-01T13:30:00",
+    "fecha_hora": "2026-09-01T13:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_11"
   },
@@ -2467,7 +2467,7 @@
     "temperatura_c": 28.35,
     "humedad": 78.9,
     "viento_kmh": 9.4,
-    "fecha_hora": "2026-09-01T14:15:00",
+    "fecha_hora": "2026-09-01T14:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_12"
   },
@@ -2479,7 +2479,7 @@
     "temperatura_c": 18.93,
     "humedad": 67.8,
     "viento_kmh": 23.99,
-    "fecha_hora": "2026-09-01T15:00:00",
+    "fecha_hora": "2026-09-01T15:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_13"
   },
@@ -2491,7 +2491,7 @@
     "temperatura_c": 31.18,
     "humedad": 50.6,
     "viento_kmh": 2.35,
-    "fecha_hora": "2026-09-01T15:45:00",
+    "fecha_hora": "2026-09-01T15:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_14"
   },
@@ -2503,7 +2503,7 @@
     "temperatura_c": 29.76,
     "humedad": 47.6,
     "viento_kmh": 20.89,
-    "fecha_hora": "2026-09-01T16:30:00",
+    "fecha_hora": "2026-09-01T16:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_15"
   },
@@ -2515,7 +2515,7 @@
     "temperatura_c": 21.12,
     "humedad": 90.0,
     "viento_kmh": 15.73,
-    "fecha_hora": "2026-09-01T17:15:00",
+    "fecha_hora": "2026-09-01T17:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_16"
   },
@@ -2527,7 +2527,7 @@
     "temperatura_c": 26.73,
     "humedad": 53.7,
     "viento_kmh": 8.02,
-    "fecha_hora": "2026-09-01T18:00:00",
+    "fecha_hora": "2026-09-01T18:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_17"
   },
@@ -2539,7 +2539,7 @@
     "temperatura_c": 29.67,
     "humedad": 64.0,
     "viento_kmh": 23.7,
-    "fecha_hora": "2026-09-01T18:45:00",
+    "fecha_hora": "2026-09-01T18:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_18"
   },
@@ -2551,7 +2551,7 @@
     "temperatura_c": 31.27,
     "humedad": 58.7,
     "viento_kmh": 1.75,
-    "fecha_hora": "2026-09-01T19:30:00",
+    "fecha_hora": "2026-09-01T19:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_19"
   },
@@ -2563,7 +2563,7 @@
     "temperatura_c": 25.9,
     "humedad": 53.9,
     "viento_kmh": 14.69,
-    "fecha_hora": "2026-09-01T20:15:00",
+    "fecha_hora": "2026-09-01T20:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_20"
   },
@@ -2575,7 +2575,7 @@
     "temperatura_c": 23.14,
     "humedad": 87.1,
     "viento_kmh": 26.68,
-    "fecha_hora": "2026-09-01T21:00:00",
+    "fecha_hora": "2026-09-01T21:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_21"
   },
@@ -2587,7 +2587,7 @@
     "temperatura_c": 22.19,
     "humedad": 93.2,
     "viento_kmh": 4.27,
-    "fecha_hora": "2026-09-01T21:45:00",
+    "fecha_hora": "2026-09-01T21:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_22"
   },
@@ -2599,7 +2599,7 @@
     "temperatura_c": 22.45,
     "humedad": 83.2,
     "viento_kmh": 0.51,
-    "fecha_hora": "2026-09-01T22:30:00",
+    "fecha_hora": "2026-09-01T22:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_23"
   },
@@ -2611,7 +2611,7 @@
     "temperatura_c": 19.78,
     "humedad": 46.4,
     "viento_kmh": 14.95,
-    "fecha_hora": "2026-09-01T23:15:00",
+    "fecha_hora": "2026-09-01T23:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_24"
   },
@@ -2623,7 +2623,7 @@
     "temperatura_c": 27.08,
     "humedad": 55.1,
     "viento_kmh": 4.83,
-    "fecha_hora": "2026-09-02T00:00:00",
+    "fecha_hora": "2026-09-02T00:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_25"
   },
@@ -2635,7 +2635,7 @@
     "temperatura_c": 18.75,
     "humedad": 87.7,
     "viento_kmh": 16.11,
-    "fecha_hora": "2026-09-02T00:45:00",
+    "fecha_hora": "2026-09-02T00:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_26"
   },
@@ -2647,7 +2647,7 @@
     "temperatura_c": 28.43,
     "humedad": 81.7,
     "viento_kmh": 31.62,
-    "fecha_hora": "2026-09-02T01:30:00",
+    "fecha_hora": "2026-09-02T01:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_27"
   },
@@ -2659,7 +2659,7 @@
     "temperatura_c": 23.14,
     "humedad": 58.3,
     "viento_kmh": 21.95,
-    "fecha_hora": "2026-09-02T02:15:00",
+    "fecha_hora": "2026-09-02T02:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_28"
   },
@@ -2671,7 +2671,7 @@
     "temperatura_c": 21.71,
     "humedad": 59.4,
     "viento_kmh": 21.17,
-    "fecha_hora": "2026-09-02T03:00:00",
+    "fecha_hora": "2026-09-02T03:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_29"
   },
@@ -2683,7 +2683,7 @@
     "temperatura_c": 26.19,
     "humedad": 88.2,
     "viento_kmh": 22.48,
-    "fecha_hora": "2026-09-02T03:45:00",
+    "fecha_hora": "2026-09-02T03:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_30"
   },
@@ -2695,7 +2695,7 @@
     "temperatura_c": 31.08,
     "humedad": 45.0,
     "viento_kmh": 29.66,
-    "fecha_hora": "2026-09-02T04:30:00",
+    "fecha_hora": "2026-09-02T04:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_31"
   },
@@ -2707,7 +2707,7 @@
     "temperatura_c": 20.31,
     "humedad": 89.1,
     "viento_kmh": 8.85,
-    "fecha_hora": "2026-09-02T05:15:00",
+    "fecha_hora": "2026-09-02T05:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_32"
   },
@@ -2719,7 +2719,7 @@
     "temperatura_c": 29.73,
     "humedad": 42.3,
     "viento_kmh": 23.54,
-    "fecha_hora": "2026-09-02T06:00:00",
+    "fecha_hora": "2026-09-02T06:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_33"
   },
@@ -2731,7 +2731,7 @@
     "temperatura_c": 23.73,
     "humedad": 83.7,
     "viento_kmh": 27.38,
-    "fecha_hora": "2026-09-02T06:45:00",
+    "fecha_hora": "2026-09-02T06:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_34"
   },
@@ -2743,7 +2743,7 @@
     "temperatura_c": 21.86,
     "humedad": 57.3,
     "viento_kmh": 23.91,
-    "fecha_hora": "2026-09-02T07:30:00",
+    "fecha_hora": "2026-09-02T07:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_35"
   },
@@ -2755,7 +2755,7 @@
     "temperatura_c": 20.02,
     "humedad": 44.2,
     "viento_kmh": 3.4,
-    "fecha_hora": "2026-09-02T08:15:00",
+    "fecha_hora": "2026-09-02T08:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_36"
   },
@@ -2767,7 +2767,7 @@
     "temperatura_c": 30.2,
     "humedad": 59.5,
     "viento_kmh": 0.73,
-    "fecha_hora": "2026-09-02T09:00:00",
+    "fecha_hora": "2026-09-02T09:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_37"
   },
@@ -2779,7 +2779,7 @@
     "temperatura_c": 19.43,
     "humedad": 62.2,
     "viento_kmh": 13.37,
-    "fecha_hora": "2026-09-02T09:45:00",
+    "fecha_hora": "2026-09-02T09:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_38"
   },
@@ -2791,7 +2791,7 @@
     "temperatura_c": 18.62,
     "humedad": 54.0,
     "viento_kmh": 25.23,
-    "fecha_hora": "2026-09-02T10:30:00",
+    "fecha_hora": "2026-09-02T10:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_39"
   },
@@ -2803,7 +2803,7 @@
     "temperatura_c": 18.96,
     "humedad": 55.6,
     "viento_kmh": 26.04,
-    "fecha_hora": "2026-09-02T11:15:00",
+    "fecha_hora": "2026-09-02T11:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_40"
   },
@@ -2815,7 +2815,7 @@
     "temperatura_c": 29.78,
     "humedad": 79.6,
     "viento_kmh": 3.22,
-    "fecha_hora": "2026-09-02T12:00:00",
+    "fecha_hora": "2026-09-02T12:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_41"
   },
@@ -2827,7 +2827,7 @@
     "temperatura_c": 31.81,
     "humedad": 78.4,
     "viento_kmh": 31.21,
-    "fecha_hora": "2026-09-02T12:45:00",
+    "fecha_hora": "2026-09-02T12:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_42"
   },
@@ -2839,7 +2839,7 @@
     "temperatura_c": 22.24,
     "humedad": 91.0,
     "viento_kmh": 29.89,
-    "fecha_hora": "2026-09-02T13:30:00",
+    "fecha_hora": "2026-09-02T13:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_43"
   },
@@ -2851,7 +2851,7 @@
     "temperatura_c": 31.42,
     "humedad": 47.8,
     "viento_kmh": 15.74,
-    "fecha_hora": "2026-09-02T14:15:00",
+    "fecha_hora": "2026-09-02T14:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_44"
   },
@@ -2863,7 +2863,7 @@
     "temperatura_c": 25.37,
     "humedad": 79.4,
     "viento_kmh": 12.33,
-    "fecha_hora": "2026-09-02T15:00:00",
+    "fecha_hora": "2026-09-02T15:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_45"
   },
@@ -2875,7 +2875,7 @@
     "temperatura_c": 31.36,
     "humedad": 45.5,
     "viento_kmh": 26.82,
-    "fecha_hora": "2026-09-02T15:45:00",
+    "fecha_hora": "2026-09-02T15:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_46"
   },
@@ -2887,7 +2887,7 @@
     "temperatura_c": 20.16,
     "humedad": 67.1,
     "viento_kmh": 1.08,
-    "fecha_hora": "2026-09-02T16:30:00",
+    "fecha_hora": "2026-09-02T16:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_47"
   },
@@ -2899,7 +2899,7 @@
     "temperatura_c": 28.66,
     "humedad": 94.5,
     "viento_kmh": 8.72,
-    "fecha_hora": "2026-09-02T17:15:00",
+    "fecha_hora": "2026-09-02T17:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_48"
   },
@@ -2911,7 +2911,7 @@
     "temperatura_c": 27.06,
     "humedad": 49.8,
     "viento_kmh": 14.84,
-    "fecha_hora": "2026-09-02T18:00:00",
+    "fecha_hora": "2026-09-02T18:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_49"
   },
@@ -2923,7 +2923,7 @@
     "temperatura_c": 31.15,
     "humedad": 67.9,
     "viento_kmh": 2.2,
-    "fecha_hora": "2026-09-02T18:45:00",
+    "fecha_hora": "2026-09-02T18:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_50"
   },
@@ -2935,7 +2935,7 @@
     "temperatura_c": 26.47,
     "humedad": 49.7,
     "viento_kmh": 23.33,
-    "fecha_hora": "2026-09-02T19:30:00",
+    "fecha_hora": "2026-09-02T19:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_51"
   },
@@ -2947,7 +2947,7 @@
     "temperatura_c": 31.6,
     "humedad": 47.7,
     "viento_kmh": 3.29,
-    "fecha_hora": "2026-09-02T20:15:00",
+    "fecha_hora": "2026-09-02T20:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_52"
   },
@@ -2959,7 +2959,7 @@
     "temperatura_c": 24.56,
     "humedad": 47.9,
     "viento_kmh": 16.63,
-    "fecha_hora": "2026-09-02T21:00:00",
+    "fecha_hora": "2026-09-02T21:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_53"
   },
@@ -2971,7 +2971,7 @@
     "temperatura_c": 31.94,
     "humedad": 47.5,
     "viento_kmh": 26.46,
-    "fecha_hora": "2026-09-02T21:45:00",
+    "fecha_hora": "2026-09-02T21:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_54"
   },
@@ -2983,7 +2983,7 @@
     "temperatura_c": 22.17,
     "humedad": 72.6,
     "viento_kmh": 8.44,
-    "fecha_hora": "2026-09-02T22:30:00",
+    "fecha_hora": "2026-09-02T22:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_55"
   },
@@ -2995,7 +2995,7 @@
     "temperatura_c": 20.83,
     "humedad": 75.6,
     "viento_kmh": 1.26,
-    "fecha_hora": "2026-09-02T23:15:00",
+    "fecha_hora": "2026-09-02T23:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_56"
   },
@@ -3007,7 +3007,7 @@
     "temperatura_c": 24.37,
     "humedad": 44.3,
     "viento_kmh": 13.92,
-    "fecha_hora": "2026-09-03T00:00:00",
+    "fecha_hora": "2026-09-03T00:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_57"
   },
@@ -3019,7 +3019,7 @@
     "temperatura_c": 23.81,
     "humedad": 66.3,
     "viento_kmh": 20.75,
-    "fecha_hora": "2026-09-03T00:45:00",
+    "fecha_hora": "2026-09-03T00:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_58"
   },
@@ -3031,7 +3031,7 @@
     "temperatura_c": 25.79,
     "humedad": 45.5,
     "viento_kmh": 30.66,
-    "fecha_hora": "2026-09-03T01:30:00",
+    "fecha_hora": "2026-09-03T01:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_59"
   },
@@ -3043,7 +3043,7 @@
     "temperatura_c": 24.01,
     "humedad": 76.6,
     "viento_kmh": 12.44,
-    "fecha_hora": "2026-09-03T02:15:00",
+    "fecha_hora": "2026-09-03T02:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_60"
   },
@@ -3055,7 +3055,7 @@
     "temperatura_c": 20.13,
     "humedad": 66.2,
     "viento_kmh": 28.97,
-    "fecha_hora": "2026-09-03T03:00:00",
+    "fecha_hora": "2026-09-03T03:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_61"
   },
@@ -3067,7 +3067,7 @@
     "temperatura_c": 25.75,
     "humedad": 94.4,
     "viento_kmh": 16.01,
-    "fecha_hora": "2026-09-03T03:45:00",
+    "fecha_hora": "2026-09-03T03:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_62"
   },
@@ -3079,7 +3079,7 @@
     "temperatura_c": 28.42,
     "humedad": 65.9,
     "viento_kmh": 23.43,
-    "fecha_hora": "2026-09-03T04:30:00",
+    "fecha_hora": "2026-09-03T04:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_63"
   },
@@ -3091,7 +3091,7 @@
     "temperatura_c": 29.04,
     "humedad": 73.5,
     "viento_kmh": 27.08,
-    "fecha_hora": "2026-09-03T05:15:00",
+    "fecha_hora": "2026-09-03T05:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_64"
   },
@@ -3103,7 +3103,7 @@
     "temperatura_c": 29.27,
     "humedad": 68.0,
     "viento_kmh": 13.99,
-    "fecha_hora": "2026-09-03T06:00:00",
+    "fecha_hora": "2026-09-03T06:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_65"
   },
@@ -3115,7 +3115,7 @@
     "temperatura_c": 22.93,
     "humedad": 56.1,
     "viento_kmh": 19.38,
-    "fecha_hora": "2026-09-03T06:45:00",
+    "fecha_hora": "2026-09-03T06:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_66"
   },
@@ -3127,7 +3127,7 @@
     "temperatura_c": 30.22,
     "humedad": 71.2,
     "viento_kmh": 21.41,
-    "fecha_hora": "2026-09-03T07:30:00",
+    "fecha_hora": "2026-09-03T07:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_67"
   },
@@ -3139,7 +3139,7 @@
     "temperatura_c": 21.35,
     "humedad": 80.4,
     "viento_kmh": 20.08,
-    "fecha_hora": "2026-09-03T08:15:00",
+    "fecha_hora": "2026-09-03T08:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_68"
   },
@@ -3151,7 +3151,7 @@
     "temperatura_c": 19.72,
     "humedad": 89.6,
     "viento_kmh": 4.01,
-    "fecha_hora": "2026-09-03T09:00:00",
+    "fecha_hora": "2026-09-03T09:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_69"
   },
@@ -3163,7 +3163,7 @@
     "temperatura_c": 26.28,
     "humedad": 45.7,
     "viento_kmh": 31.29,
-    "fecha_hora": "2026-09-03T09:45:00",
+    "fecha_hora": "2026-09-03T09:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_70"
   },
@@ -3175,7 +3175,7 @@
     "temperatura_c": 24.24,
     "humedad": 67.0,
     "viento_kmh": 5.04,
-    "fecha_hora": "2026-09-03T10:30:00",
+    "fecha_hora": "2026-09-03T10:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_71"
   },
@@ -3187,7 +3187,7 @@
     "temperatura_c": 28.82,
     "humedad": 56.5,
     "viento_kmh": 24.52,
-    "fecha_hora": "2026-09-03T11:15:00",
+    "fecha_hora": "2026-09-03T11:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_72"
   },
@@ -3199,7 +3199,7 @@
     "temperatura_c": 28.16,
     "humedad": 58.8,
     "viento_kmh": 19.89,
-    "fecha_hora": "2026-09-03T12:00:00",
+    "fecha_hora": "2026-09-03T12:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_73"
   },
@@ -3211,7 +3211,7 @@
     "temperatura_c": 24.04,
     "humedad": 50.1,
     "viento_kmh": 13.22,
-    "fecha_hora": "2026-09-03T12:45:00",
+    "fecha_hora": "2026-09-03T12:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_74"
   },
@@ -3223,7 +3223,7 @@
     "temperatura_c": 30.79,
     "humedad": 69.4,
     "viento_kmh": 22.01,
-    "fecha_hora": "2026-09-03T13:30:00",
+    "fecha_hora": "2026-09-03T13:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_75"
   },
@@ -3235,7 +3235,7 @@
     "temperatura_c": 26.7,
     "humedad": 91.2,
     "viento_kmh": 31.09,
-    "fecha_hora": "2026-09-03T15:00:00",
+    "fecha_hora": "2026-09-03T15:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_77"
   },
@@ -3247,7 +3247,7 @@
     "temperatura_c": 18.95,
     "humedad": 74.2,
     "viento_kmh": 23.74,
-    "fecha_hora": "2026-09-03T15:45:00",
+    "fecha_hora": "2026-09-03T15:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_78"
   },
@@ -3259,7 +3259,7 @@
     "temperatura_c": 29.65,
     "humedad": 48.0,
     "viento_kmh": 13.18,
-    "fecha_hora": "2026-09-03T16:30:00",
+    "fecha_hora": "2026-09-03T16:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_79"
   },
@@ -3271,7 +3271,7 @@
     "temperatura_c": 20.33,
     "humedad": 88.7,
     "viento_kmh": 18.32,
-    "fecha_hora": "2026-09-03T17:15:00",
+    "fecha_hora": "2026-09-03T17:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_80"
   },
@@ -3283,7 +3283,7 @@
     "temperatura_c": 18.02,
     "humedad": 52.0,
     "viento_kmh": 14.1,
-    "fecha_hora": "2026-09-03T18:00:00",
+    "fecha_hora": "2026-09-03T18:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_81"
   },
@@ -3295,7 +3295,7 @@
     "temperatura_c": 29.66,
     "humedad": 69.8,
     "viento_kmh": 5.5,
-    "fecha_hora": "2026-09-03T18:45:00",
+    "fecha_hora": "2026-09-03T18:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_82"
   },
@@ -3307,7 +3307,7 @@
     "temperatura_c": 23.04,
     "humedad": 67.7,
     "viento_kmh": 4.81,
-    "fecha_hora": "2026-09-03T19:30:00",
+    "fecha_hora": "2026-09-03T19:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_83"
   },
@@ -3319,7 +3319,7 @@
     "temperatura_c": 23.99,
     "humedad": 48.0,
     "viento_kmh": 15.2,
-    "fecha_hora": "2026-09-03T20:15:00",
+    "fecha_hora": "2026-09-03T20:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_84"
   },
@@ -3331,7 +3331,7 @@
     "temperatura_c": 21.73,
     "humedad": 67.3,
     "viento_kmh": 21.05,
-    "fecha_hora": "2026-09-03T21:00:00",
+    "fecha_hora": "2026-09-03T21:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_85"
   },
@@ -3343,7 +3343,7 @@
     "temperatura_c": 23.61,
     "humedad": 86.4,
     "viento_kmh": 23.47,
-    "fecha_hora": "2026-09-03T21:45:00",
+    "fecha_hora": "2026-09-03T21:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_86"
   },
@@ -3355,7 +3355,7 @@
     "temperatura_c": 30.26,
     "humedad": 59.0,
     "viento_kmh": 21.53,
-    "fecha_hora": "2026-09-03T22:30:00",
+    "fecha_hora": "2026-09-03T22:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_87"
   },
@@ -3367,7 +3367,7 @@
     "temperatura_c": 25.25,
     "humedad": 83.0,
     "viento_kmh": 28.1,
-    "fecha_hora": "2026-09-03T23:15:00",
+    "fecha_hora": "2026-09-03T23:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_88"
   },
@@ -3379,7 +3379,7 @@
     "temperatura_c": 30.09,
     "humedad": 51.4,
     "viento_kmh": 21.92,
-    "fecha_hora": "2026-09-04T00:00:00",
+    "fecha_hora": "2026-09-04T00:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_89"
   },
@@ -3391,7 +3391,7 @@
     "temperatura_c": 30.44,
     "humedad": 61.1,
     "viento_kmh": 4.66,
-    "fecha_hora": "2026-09-04T00:45:00",
+    "fecha_hora": "2026-09-04T00:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_90"
   },
@@ -3403,7 +3403,7 @@
     "temperatura_c": 29.34,
     "humedad": 51.5,
     "viento_kmh": 19.04,
-    "fecha_hora": "2026-09-04T01:30:00",
+    "fecha_hora": "2026-09-04T01:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_91"
   },
@@ -3415,7 +3415,7 @@
     "temperatura_c": 30.93,
     "humedad": 60.4,
     "viento_kmh": 3.83,
-    "fecha_hora": "2026-09-04T02:15:00",
+    "fecha_hora": "2026-09-04T02:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_92"
   },
@@ -3427,7 +3427,7 @@
     "temperatura_c": 29.28,
     "humedad": 54.1,
     "viento_kmh": 17.09,
-    "fecha_hora": "2026-09-04T03:00:00",
+    "fecha_hora": "2026-09-04T03:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_93"
   },
@@ -3439,7 +3439,7 @@
     "temperatura_c": 21.93,
     "humedad": 59.5,
     "viento_kmh": 23.32,
-    "fecha_hora": "2026-09-04T03:45:00",
+    "fecha_hora": "2026-09-04T03:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_94"
   },
@@ -3451,7 +3451,7 @@
     "temperatura_c": 27.9,
     "humedad": 57.0,
     "viento_kmh": 21.29,
-    "fecha_hora": "2026-09-04T04:30:00",
+    "fecha_hora": "2026-09-04T04:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_95"
   },
@@ -3463,7 +3463,7 @@
     "temperatura_c": 22.84,
     "humedad": 56.5,
     "viento_kmh": 11.42,
-    "fecha_hora": "2026-09-04T05:15:00",
+    "fecha_hora": "2026-09-04T05:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_96"
   },
@@ -3475,7 +3475,7 @@
     "temperatura_c": 21.78,
     "humedad": 60.6,
     "viento_kmh": 1.18,
-    "fecha_hora": "2026-09-04T06:00:00",
+    "fecha_hora": "2026-09-04T06:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_97"
   },
@@ -3487,7 +3487,7 @@
     "temperatura_c": 18.9,
     "humedad": 91.4,
     "viento_kmh": 4.57,
-    "fecha_hora": "2026-09-04T06:45:00",
+    "fecha_hora": "2026-09-04T06:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_98"
   },
@@ -3499,7 +3499,7 @@
     "temperatura_c": 30.84,
     "humedad": 76.8,
     "viento_kmh": 12.27,
-    "fecha_hora": "2026-09-04T07:30:00",
+    "fecha_hora": "2026-09-04T07:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_99"
   },
@@ -3511,7 +3511,7 @@
     "temperatura_c": 27.57,
     "humedad": 79.7,
     "viento_kmh": 7.96,
-    "fecha_hora": "2026-09-04T08:15:00",
+    "fecha_hora": "2026-09-04T08:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_100"
   },
@@ -3523,7 +3523,7 @@
     "temperatura_c": 18.2,
     "humedad": 59.5,
     "viento_kmh": 16.37,
-    "fecha_hora": "2026-09-04T09:00:00",
+    "fecha_hora": "2026-09-04T09:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_101"
   },
@@ -3535,7 +3535,7 @@
     "temperatura_c": 22.85,
     "humedad": 61.8,
     "viento_kmh": 21.59,
-    "fecha_hora": "2026-09-04T09:45:00",
+    "fecha_hora": "2026-09-04T09:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_102"
   },
@@ -3547,7 +3547,7 @@
     "temperatura_c": 20.63,
     "humedad": 50.9,
     "viento_kmh": 25.64,
-    "fecha_hora": "2026-09-04T10:30:00",
+    "fecha_hora": "2026-09-04T10:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_103"
   },
@@ -3559,7 +3559,7 @@
     "temperatura_c": 19.31,
     "humedad": 61.9,
     "viento_kmh": 26.31,
-    "fecha_hora": "2026-09-04T11:15:00",
+    "fecha_hora": "2026-09-04T11:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_104"
   },
@@ -3571,7 +3571,7 @@
     "temperatura_c": 31.72,
     "humedad": 63.9,
     "viento_kmh": 11.24,
-    "fecha_hora": "2026-09-04T12:00:00",
+    "fecha_hora": "2026-09-04T12:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_105"
   },
@@ -3583,7 +3583,7 @@
     "temperatura_c": 22.78,
     "humedad": 70.0,
     "viento_kmh": 29.71,
-    "fecha_hora": "2026-09-04T12:45:00",
+    "fecha_hora": "2026-09-04T12:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_106"
   },
@@ -3595,7 +3595,7 @@
     "temperatura_c": 19.53,
     "humedad": 44.3,
     "viento_kmh": 10.9,
-    "fecha_hora": "2026-09-04T13:30:00",
+    "fecha_hora": "2026-09-04T13:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_107"
   },
@@ -3607,7 +3607,7 @@
     "temperatura_c": 23.2,
     "humedad": 45.9,
     "viento_kmh": 31.49,
-    "fecha_hora": "2026-09-04T14:15:00",
+    "fecha_hora": "2026-09-04T14:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_108"
   },
@@ -3619,7 +3619,7 @@
     "temperatura_c": 18.26,
     "humedad": 80.4,
     "viento_kmh": 24.39,
-    "fecha_hora": "2026-09-04T15:00:00",
+    "fecha_hora": "2026-09-04T15:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_109"
   },
@@ -3631,7 +3631,7 @@
     "temperatura_c": 18.15,
     "humedad": 46.9,
     "viento_kmh": 17.72,
-    "fecha_hora": "2026-09-04T15:45:00",
+    "fecha_hora": "2026-09-04T15:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_110"
   },
@@ -3643,7 +3643,7 @@
     "temperatura_c": 28.18,
     "humedad": 48.2,
     "viento_kmh": 25.39,
-    "fecha_hora": "2026-09-04T16:30:00",
+    "fecha_hora": "2026-09-04T16:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_111"
   },
@@ -3655,7 +3655,7 @@
     "temperatura_c": 25.0,
     "humedad": 90.5,
     "viento_kmh": 11.39,
-    "fecha_hora": "2026-09-04T17:15:00",
+    "fecha_hora": "2026-09-04T17:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_112"
   },
@@ -3667,7 +3667,7 @@
     "temperatura_c": 18.28,
     "humedad": 69.2,
     "viento_kmh": 21.09,
-    "fecha_hora": "2026-09-04T18:00:00",
+    "fecha_hora": "2026-09-04T18:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_113"
   },
@@ -3679,7 +3679,7 @@
     "temperatura_c": 23.61,
     "humedad": 63.2,
     "viento_kmh": -7.4,
-    "fecha_hora": "2026-09-04T19:30:00",
+    "fecha_hora": "2026-09-04T19:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_115"
   },
@@ -3691,7 +3691,7 @@
     "temperatura_c": 21.25,
     "humedad": 92.1,
     "viento_kmh": 13.96,
-    "fecha_hora": "2026-09-04T20:15:00",
+    "fecha_hora": "2026-09-04T20:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_116"
   },
@@ -3703,7 +3703,7 @@
     "temperatura_c": 21.51,
     "humedad": 94.4,
     "viento_kmh": 9.4,
-    "fecha_hora": "2026-09-04T21:00:00",
+    "fecha_hora": "2026-09-04T21:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_117"
   },
@@ -3715,7 +3715,7 @@
     "temperatura_c": 30.84,
     "humedad": 50.2,
     "viento_kmh": 2.17,
-    "fecha_hora": "2026-09-04T21:45:00",
+    "fecha_hora": "2026-09-04T21:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_118"
   },
@@ -3727,7 +3727,7 @@
     "temperatura_c": 19.93,
     "humedad": 46.3,
     "viento_kmh": 15.85,
-    "fecha_hora": "2026-09-04T22:30:00",
+    "fecha_hora": "2026-09-04T22:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_119"
   },
@@ -3739,7 +3739,7 @@
     "temperatura_c": 30.28,
     "humedad": 86.2,
     "viento_kmh": 20.89,
-    "fecha_hora": "2026-09-04T23:15:00",
+    "fecha_hora": "2026-09-04T23:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_120"
   },
@@ -3751,7 +3751,7 @@
     "temperatura_c": 24.34,
     "humedad": 42.3,
     "viento_kmh": 18.19,
-    "fecha_hora": "2026-09-05T00:00:00",
+    "fecha_hora": "2026-09-05T00:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_121"
   },
@@ -3763,7 +3763,7 @@
     "temperatura_c": 22.25,
     "humedad": 94.3,
     "viento_kmh": 10.23,
-    "fecha_hora": "2026-09-05T00:45:00",
+    "fecha_hora": "2026-09-05T00:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_122"
   },
@@ -3775,7 +3775,7 @@
     "temperatura_c": 19.21,
     "humedad": 84.9,
     "viento_kmh": 16.82,
-    "fecha_hora": "2026-09-05T01:30:00",
+    "fecha_hora": "2026-09-05T01:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_123"
   },
@@ -3787,7 +3787,7 @@
     "temperatura_c": 24.28,
     "humedad": 56.0,
     "viento_kmh": 24.51,
-    "fecha_hora": "2026-09-05T02:15:00",
+    "fecha_hora": "2026-09-05T02:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_124"
   },
@@ -3799,7 +3799,7 @@
     "temperatura_c": 22.07,
     "humedad": 43.8,
     "viento_kmh": 6.54,
-    "fecha_hora": "2026-09-05T03:00:00",
+    "fecha_hora": "2026-09-05T03:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_125"
   },
@@ -3811,7 +3811,7 @@
     "temperatura_c": 25.36,
     "humedad": 89.8,
     "viento_kmh": 25.83,
-    "fecha_hora": "2026-09-05T03:45:00",
+    "fecha_hora": "2026-09-05T03:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_126"
   },
@@ -3823,7 +3823,7 @@
     "temperatura_c": 19.95,
     "humedad": 70.7,
     "viento_kmh": 27.53,
-    "fecha_hora": "2026-09-05T04:30:00",
+    "fecha_hora": "2026-09-05T04:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_127"
   },
@@ -3835,7 +3835,7 @@
     "temperatura_c": 18.94,
     "humedad": 55.0,
     "viento_kmh": 6.14,
-    "fecha_hora": "2026-09-05T06:00:00",
+    "fecha_hora": "2026-09-05T06:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_129"
   },
@@ -3847,7 +3847,7 @@
     "temperatura_c": 28.61,
     "humedad": 66.6,
     "viento_kmh": 23.09,
-    "fecha_hora": "2026-09-05T06:45:00",
+    "fecha_hora": "2026-09-05T06:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_130"
   },
@@ -3859,7 +3859,7 @@
     "temperatura_c": 21.75,
     "humedad": 66.0,
     "viento_kmh": 18.42,
-    "fecha_hora": "2026-09-05T07:30:00",
+    "fecha_hora": "2026-09-05T07:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_131"
   },
@@ -3871,7 +3871,7 @@
     "temperatura_c": 21.91,
     "humedad": 51.1,
     "viento_kmh": 9.95,
-    "fecha_hora": "2026-09-05T08:15:00",
+    "fecha_hora": "2026-09-05T08:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_132"
   },
@@ -3883,7 +3883,7 @@
     "temperatura_c": 18.68,
     "humedad": 88.5,
     "viento_kmh": 29.32,
-    "fecha_hora": "2026-09-05T09:00:00",
+    "fecha_hora": "2026-09-05T09:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_133"
   },
@@ -3895,7 +3895,7 @@
     "temperatura_c": 19.98,
     "humedad": 59.3,
     "viento_kmh": 23.1,
-    "fecha_hora": "2026-09-05T09:45:00",
+    "fecha_hora": "2026-09-05T09:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_134"
   },
@@ -3907,7 +3907,7 @@
     "temperatura_c": 27.81,
     "humedad": 67.2,
     "viento_kmh": 26.35,
-    "fecha_hora": "2026-09-05T11:15:00",
+    "fecha_hora": "2026-09-05T11:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_136"
   },
@@ -3919,7 +3919,7 @@
     "temperatura_c": 31.78,
     "humedad": 42.1,
     "viento_kmh": 17.99,
-    "fecha_hora": "2026-09-05T12:00:00",
+    "fecha_hora": "2026-09-05T12:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_137"
   },
@@ -3931,7 +3931,7 @@
     "temperatura_c": 19.76,
     "humedad": 85.7,
     "viento_kmh": 13.17,
-    "fecha_hora": "2026-09-05T12:45:00",
+    "fecha_hora": "2026-09-05T12:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_138"
   },
@@ -3943,7 +3943,7 @@
     "temperatura_c": 19.98,
     "humedad": 44.8,
     "viento_kmh": 21.22,
-    "fecha_hora": "2026-09-05T13:30:00",
+    "fecha_hora": "2026-09-05T13:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_139"
   },
@@ -3955,7 +3955,7 @@
     "temperatura_c": 18.33,
     "humedad": 90.9,
     "viento_kmh": 9.7,
-    "fecha_hora": "2026-09-05T14:15:00",
+    "fecha_hora": "2026-09-05T14:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_140"
   },
@@ -3967,7 +3967,7 @@
     "temperatura_c": 23.89,
     "humedad": 43.1,
     "viento_kmh": 11.23,
-    "fecha_hora": "2026-09-05T15:00:00",
+    "fecha_hora": "2026-09-05T15:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_141"
   },
@@ -3979,7 +3979,7 @@
     "temperatura_c": 30.08,
     "humedad": 56.9,
     "viento_kmh": 30.71,
-    "fecha_hora": "2026-09-05T15:45:00",
+    "fecha_hora": "2026-09-05T15:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_142"
   },
@@ -3991,7 +3991,7 @@
     "temperatura_c": 23.19,
     "humedad": 70.8,
     "viento_kmh": 11.34,
-    "fecha_hora": "2026-09-05T16:30:00",
+    "fecha_hora": "2026-09-05T16:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_143"
   },
@@ -4003,7 +4003,7 @@
     "temperatura_c": 24.44,
     "humedad": 94.1,
     "viento_kmh": 10.28,
-    "fecha_hora": "2026-09-05T17:15:00",
+    "fecha_hora": "2026-09-05T17:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_144"
   },
@@ -4015,7 +4015,7 @@
     "temperatura_c": 18.42,
     "humedad": 55.8,
     "viento_kmh": 14.21,
-    "fecha_hora": "2026-09-05T18:00:00",
+    "fecha_hora": "2026-09-05T18:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_145"
   },
@@ -4027,7 +4027,7 @@
     "temperatura_c": 21.52,
     "humedad": 90.4,
     "viento_kmh": 22.55,
-    "fecha_hora": "2026-09-05T19:30:00",
+    "fecha_hora": "2026-09-05T19:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_147"
   },
@@ -4039,7 +4039,7 @@
     "temperatura_c": 25.39,
     "humedad": 50.4,
     "viento_kmh": 0.52,
-    "fecha_hora": "2026-09-05T20:15:00",
+    "fecha_hora": "2026-09-05T20:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_148"
   },
@@ -4051,7 +4051,7 @@
     "temperatura_c": 22.46,
     "humedad": 91.2,
     "viento_kmh": 2.73,
-    "fecha_hora": "2026-09-05T21:00:00",
+    "fecha_hora": "2026-09-05T21:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_149"
   },
@@ -4063,7 +4063,7 @@
     "temperatura_c": 27.1,
     "humedad": 91.5,
     "viento_kmh": 14.55,
-    "fecha_hora": "2026-09-05T21:45:00",
+    "fecha_hora": "2026-09-05T21:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_150"
   },
@@ -4075,7 +4075,7 @@
     "temperatura_c": 20.33,
     "humedad": 63.4,
     "viento_kmh": 13.02,
-    "fecha_hora": "2026-09-05T22:30:00",
+    "fecha_hora": "2026-09-05T22:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_151"
   },
@@ -4087,7 +4087,7 @@
     "temperatura_c": 26.41,
     "humedad": 58.8,
     "viento_kmh": 21.55,
-    "fecha_hora": "2026-09-05T23:15:00",
+    "fecha_hora": "2026-09-05T23:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_152"
   },
@@ -4099,7 +4099,7 @@
     "temperatura_c": 18.37,
     "humedad": 59.5,
     "viento_kmh": 24.35,
-    "fecha_hora": "2026-09-06T00:00:00",
+    "fecha_hora": "2026-09-06T00:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_153"
   },
@@ -4111,7 +4111,7 @@
     "temperatura_c": 24.53,
     "humedad": 64.4,
     "viento_kmh": 24.53,
-    "fecha_hora": "2026-09-06T00:45:00",
+    "fecha_hora": "2026-09-06T00:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_154"
   },
@@ -4123,7 +4123,7 @@
     "temperatura_c": 28.46,
     "humedad": 61.3,
     "viento_kmh": 20.87,
-    "fecha_hora": "2026-09-06T01:30:00",
+    "fecha_hora": "2026-09-06T01:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_155"
   },
@@ -4135,7 +4135,7 @@
     "temperatura_c": 25.91,
     "humedad": 50.0,
     "viento_kmh": 6.99,
-    "fecha_hora": "2026-09-06T02:15:00",
+    "fecha_hora": "2026-09-06T02:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_156"
   },
@@ -4147,7 +4147,7 @@
     "temperatura_c": 28.41,
     "humedad": 52.9,
     "viento_kmh": 29.88,
-    "fecha_hora": "2026-09-06T03:00:00",
+    "fecha_hora": "2026-09-06T03:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_157"
   },
@@ -4159,7 +4159,7 @@
     "temperatura_c": 19.33,
     "humedad": 61.9,
     "viento_kmh": 17.56,
-    "fecha_hora": "2026-09-06T03:45:00",
+    "fecha_hora": "2026-09-06T03:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_158"
   },
@@ -4171,7 +4171,7 @@
     "temperatura_c": 29.18,
     "humedad": 93.0,
     "viento_kmh": 14.58,
-    "fecha_hora": "2026-09-06T04:30:00",
+    "fecha_hora": "2026-09-06T04:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_159"
   },
@@ -4183,7 +4183,7 @@
     "temperatura_c": 22.92,
     "humedad": 48.0,
     "viento_kmh": 9.11,
-    "fecha_hora": "2026-09-06T05:15:00",
+    "fecha_hora": "2026-09-06T05:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_160"
   },
@@ -4195,7 +4195,7 @@
     "temperatura_c": 21.28,
     "humedad": 90.1,
     "viento_kmh": 25.85,
-    "fecha_hora": "2026-09-06T06:00:00",
+    "fecha_hora": "2026-09-06T06:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_161"
   },
@@ -4207,7 +4207,7 @@
     "temperatura_c": 27.15,
     "humedad": 78.5,
     "viento_kmh": 24.53,
-    "fecha_hora": "2026-09-06T06:45:00",
+    "fecha_hora": "2026-09-06T06:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_162"
   },
@@ -4219,7 +4219,7 @@
     "temperatura_c": 18.1,
     "humedad": 62.8,
     "viento_kmh": 15.92,
-    "fecha_hora": "2026-09-06T07:30:00",
+    "fecha_hora": "2026-09-06T07:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_163"
   },
@@ -4231,7 +4231,7 @@
     "temperatura_c": 21.79,
     "humedad": 50.6,
     "viento_kmh": 30.83,
-    "fecha_hora": "2026-09-06T08:15:00",
+    "fecha_hora": "2026-09-06T08:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_164"
   },
@@ -4243,7 +4243,7 @@
     "temperatura_c": 25.62,
     "humedad": 79.8,
     "viento_kmh": 23.02,
-    "fecha_hora": "2026-09-06T09:00:00",
+    "fecha_hora": "2026-09-06T09:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_165"
   },
@@ -4255,7 +4255,7 @@
     "temperatura_c": 18.44,
     "humedad": 78.3,
     "viento_kmh": 26.66,
-    "fecha_hora": "2026-09-06T09:45:00",
+    "fecha_hora": "2026-09-06T09:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_166"
   },
@@ -4267,7 +4267,7 @@
     "temperatura_c": 24.57,
     "humedad": 57.9,
     "viento_kmh": 6.79,
-    "fecha_hora": "2026-09-06T10:30:00",
+    "fecha_hora": "2026-09-06T10:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_167"
   },
@@ -4279,7 +4279,7 @@
     "temperatura_c": 23.14,
     "humedad": 55.8,
     "viento_kmh": 26.4,
-    "fecha_hora": "2026-09-06T11:15:00",
+    "fecha_hora": "2026-09-06T11:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_168"
   },
@@ -4291,7 +4291,7 @@
     "temperatura_c": 26.78,
     "humedad": 53.4,
     "viento_kmh": 28.26,
-    "fecha_hora": "2026-09-06T12:00:00",
+    "fecha_hora": "2026-09-06T12:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_169"
   },
@@ -4303,7 +4303,7 @@
     "temperatura_c": 26.58,
     "humedad": 89.9,
     "viento_kmh": 17.68,
-    "fecha_hora": "2026-09-06T12:45:00",
+    "fecha_hora": "2026-09-06T12:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_170"
   },
@@ -4315,7 +4315,7 @@
     "temperatura_c": 24.53,
     "humedad": 68.1,
     "viento_kmh": 14.21,
-    "fecha_hora": "2026-09-06T14:15:00",
+    "fecha_hora": "2026-09-06T14:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_172"
   },
@@ -4327,7 +4327,7 @@
     "temperatura_c": 18.54,
     "humedad": 45.7,
     "viento_kmh": 5.79,
-    "fecha_hora": "2026-09-06T15:00:00",
+    "fecha_hora": "2026-09-06T15:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_173"
   },
@@ -4339,7 +4339,7 @@
     "temperatura_c": 31.27,
     "humedad": 65.3,
     "viento_kmh": 23.86,
-    "fecha_hora": "2026-09-06T15:45:00",
+    "fecha_hora": "2026-09-06T15:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_174"
   },
@@ -4351,7 +4351,7 @@
     "temperatura_c": 24.53,
     "humedad": 62.8,
     "viento_kmh": 15.43,
-    "fecha_hora": "2026-09-06T16:30:00",
+    "fecha_hora": "2026-09-06T16:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_175"
   },
@@ -4363,7 +4363,7 @@
     "temperatura_c": 24.67,
     "humedad": 56.9,
     "viento_kmh": 7.28,
-    "fecha_hora": "2026-09-06T17:15:00",
+    "fecha_hora": "2026-09-06T17:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_176"
   },
@@ -4375,7 +4375,7 @@
     "temperatura_c": 25.4,
     "humedad": 89.8,
     "viento_kmh": 27.65,
-    "fecha_hora": "2026-09-06T18:00:00",
+    "fecha_hora": "2026-09-06T18:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_177"
   },
@@ -4387,7 +4387,7 @@
     "temperatura_c": 31.76,
     "humedad": 69.7,
     "viento_kmh": 28.03,
-    "fecha_hora": "2026-09-06T18:45:00",
+    "fecha_hora": "2026-09-06T18:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_178"
   },
@@ -4399,7 +4399,7 @@
     "temperatura_c": 22.1,
     "humedad": 92.0,
     "viento_kmh": 24.0,
-    "fecha_hora": "2026-09-06T19:30:00",
+    "fecha_hora": "2026-09-06T19:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_179"
   },
@@ -4411,7 +4411,7 @@
     "temperatura_c": 24.29,
     "humedad": 51.7,
     "viento_kmh": 1.16,
-    "fecha_hora": "2026-09-06T20:15:00",
+    "fecha_hora": "2026-09-06T20:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_180"
   },
@@ -4423,7 +4423,7 @@
     "temperatura_c": 29.82,
     "humedad": 55.3,
     "viento_kmh": 25.95,
-    "fecha_hora": "2026-09-06T21:00:00",
+    "fecha_hora": "2026-09-06T21:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_181"
   },
@@ -4435,7 +4435,7 @@
     "temperatura_c": 20.7,
     "humedad": 83.1,
     "viento_kmh": 6.13,
-    "fecha_hora": "2026-09-06T21:45:00",
+    "fecha_hora": "2026-09-06T21:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_182"
   },
@@ -4447,7 +4447,7 @@
     "temperatura_c": 21.06,
     "humedad": 44.7,
     "viento_kmh": 10.7,
-    "fecha_hora": "2026-09-06T22:30:00",
+    "fecha_hora": "2026-09-06T22:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_183"
   },
@@ -4459,7 +4459,7 @@
     "temperatura_c": 27.85,
     "humedad": 44.5,
     "viento_kmh": 8.1,
-    "fecha_hora": "2026-09-06T23:15:00",
+    "fecha_hora": "2026-09-06T23:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_184"
   },
@@ -4471,7 +4471,7 @@
     "temperatura_c": 29.5,
     "humedad": 69.6,
     "viento_kmh": 27.49,
-    "fecha_hora": "2026-09-07T00:00:00",
+    "fecha_hora": "2026-09-07T00:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_185"
   },
@@ -4483,7 +4483,7 @@
     "temperatura_c": 20.58,
     "humedad": 85.5,
     "viento_kmh": 30.49,
-    "fecha_hora": "2026-09-07T00:45:00",
+    "fecha_hora": "2026-09-07T00:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_186"
   },
@@ -4495,7 +4495,7 @@
     "temperatura_c": 18.4,
     "humedad": 65.4,
     "viento_kmh": 22.11,
-    "fecha_hora": "2026-09-07T01:30:00",
+    "fecha_hora": "2026-09-07T01:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_187"
   },
@@ -4507,7 +4507,7 @@
     "temperatura_c": 20.92,
     "humedad": 61.0,
     "viento_kmh": 6.65,
-    "fecha_hora": "2026-09-07T02:15:00",
+    "fecha_hora": "2026-09-07T02:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_188"
   },
@@ -4519,7 +4519,7 @@
     "temperatura_c": 23.97,
     "humedad": 86.4,
     "viento_kmh": 27.74,
-    "fecha_hora": "2026-09-07T03:00:00",
+    "fecha_hora": "2026-09-07T03:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_189"
   },
@@ -4531,7 +4531,7 @@
     "temperatura_c": 23.16,
     "humedad": 69.7,
     "viento_kmh": 13.86,
-    "fecha_hora": "2026-09-07T03:45:00",
+    "fecha_hora": "2026-09-07T03:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_190"
   },
@@ -4543,7 +4543,7 @@
     "temperatura_c": 26.07,
     "humedad": 81.3,
     "viento_kmh": 3.9,
-    "fecha_hora": "2026-09-07T04:30:00",
+    "fecha_hora": "2026-09-07T04:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_191"
   },
@@ -4555,7 +4555,7 @@
     "temperatura_c": 21.13,
     "humedad": 88.6,
     "viento_kmh": 5.08,
-    "fecha_hora": "2026-09-07T05:15:00",
+    "fecha_hora": "2026-09-07T05:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_192"
   },
@@ -4567,7 +4567,7 @@
     "temperatura_c": 26.96,
     "humedad": 71.8,
     "viento_kmh": 19.32,
-    "fecha_hora": "2026-09-07T06:00:00",
+    "fecha_hora": "2026-09-07T06:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_193"
   },
@@ -4579,7 +4579,7 @@
     "temperatura_c": 19.26,
     "humedad": 90.8,
     "viento_kmh": 25.13,
-    "fecha_hora": "2026-09-07T06:45:00",
+    "fecha_hora": "2026-09-07T06:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_194"
   },
@@ -4591,7 +4591,7 @@
     "temperatura_c": 21.31,
     "humedad": 76.8,
     "viento_kmh": 23.95,
-    "fecha_hora": "2026-09-07T07:30:00",
+    "fecha_hora": "2026-09-07T07:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_195"
   },
@@ -4603,7 +4603,7 @@
     "temperatura_c": 31.3,
     "humedad": 88.4,
     "viento_kmh": 5.04,
-    "fecha_hora": "2026-09-07T08:15:00",
+    "fecha_hora": "2026-09-07T08:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_196"
   },
@@ -4615,7 +4615,7 @@
     "temperatura_c": 29.72,
     "humedad": 70.3,
     "viento_kmh": 14.27,
-    "fecha_hora": "2026-09-07T09:00:00",
+    "fecha_hora": "2026-09-07T09:00:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_197"
   },
@@ -4627,7 +4627,7 @@
     "temperatura_c": 31.54,
     "humedad": 86.8,
     "viento_kmh": 3.57,
-    "fecha_hora": "2026-09-07T09:45:00",
+    "fecha_hora": "2026-09-07T09:45:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_198"
   },
@@ -4639,7 +4639,7 @@
     "temperatura_c": 26.02,
     "humedad": 79.1,
     "viento_kmh": 12.59,
-    "fecha_hora": "2026-09-07T10:30:00",
+    "fecha_hora": "2026-09-07T10:30:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_199"
   },
@@ -4651,7 +4651,7 @@
     "temperatura_c": 27.27,
     "humedad": 78.0,
     "viento_kmh": 12.81,
-    "fecha_hora": "2026-09-07T11:15:00",
+    "fecha_hora": "2026-09-07T11:15:00-05:00",
     "origen": "proveedor_b",
     "_trazabilidad_id": "proveedor_b_200"
   }

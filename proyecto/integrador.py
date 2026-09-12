@@ -2,13 +2,12 @@ import json
 import csv
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import requests
 
 
-URL_BASE = "https://appsweb.quantaiot.co"  
-EQUIPO = "equipo_Eddy_Irma_TPS"        
-     
+URL_BASE = "https://appsweb.quantaiot.co"
+EQUIPO = "EQUIPO-02-APPSWEB" 
 def buscar_archivo(nombre_archivo):
     if os.path.exists(nombre_archivo):
         return nombre_archivo
@@ -105,6 +104,7 @@ def normalizar_registro(raw):
                 return None, "Campos incompletos en CSV"
                 
             dt = datetime.strptime(m_time, "%d/%m/%Y %H:%M")
+            dt = dt.replace(tzinfo=timezone(timedelta(hours=-5)))
             fecha_iso = dt.isoformat()
             
             normalized = {
