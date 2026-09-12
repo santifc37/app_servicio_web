@@ -1,0 +1,2749 @@
+{
+  "equipo": "equipo_Eddy_Irma_TPS",
+  "resumen": {
+    "registros_procesados": 400,
+    "registros_normalizados": 388,
+    "errores_normalizacion": 12,
+    "registros_validos_localmente": 380,
+    "registros_rechazados_localmente": 8,
+    "registros_enviados": 380,
+    "registros_aceptados_api": 0,
+    "registros_rechazados_api": 380,
+    "errores_comunicacion": 0
+  },
+  "consulta_final_api": null,
+  "detalle_por_registro": {
+    "proveedor_a_1": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_2": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_3": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_4": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_5": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_6": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_7": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_8": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_9": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_10": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_11": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_12": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_13": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_14": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_15": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_a_16": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_17": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_18": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_19": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_20": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_21": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_22": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_23": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_24": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_25": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_26": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_27": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_28": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_29": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_30": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_31": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_a_32": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_33": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_34": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_35": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_36": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_37": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_38": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_39": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_40": {
+      "resultado": "error_normalizacion",
+      "motivo": "Mediciones o fecha nulas"
+    },
+    "proveedor_a_41": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_42": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_43": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_44": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_45": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_46": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_47": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_48": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_49": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_50": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_51": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_52": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_53": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_54": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_55": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_56": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_57": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_58": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_59": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_60": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_61": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_62": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_63": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_64": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_65": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_66": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_67": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_68": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_69": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_70": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_71": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_72": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_73": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_74": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_75": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_76": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_77": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_78": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_79": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_80": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_81": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_82": {
+      "resultado": "error_normalizacion",
+      "motivo": "Mediciones o fecha nulas"
+    },
+    "proveedor_a_83": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_84": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_85": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_86": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_87": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_88": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_a_89": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_90": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_91": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_92": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_93": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_94": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_95": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_96": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_97": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_98": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_99": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_100": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_101": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_102": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_103": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_104": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_105": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_106": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_107": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_108": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_109": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_110": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_111": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_112": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_113": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_114": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_115": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_116": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_117": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_118": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_119": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_120": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_121": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_122": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_123": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_124": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_125": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_126": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_127": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_128": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_129": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_130": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_131": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_132": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_133": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_134": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_135": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_136": {
+      "resultado": "error_normalizacion",
+      "motivo": "Ubicación incompleta"
+    },
+    "proveedor_a_137": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_138": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_139": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_140": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_141": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_142": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_143": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_144": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_145": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_146": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_147": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_148": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_149": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_150": {
+      "resultado": "error_normalizacion",
+      "motivo": "Ubicación incompleta"
+    },
+    "proveedor_a_151": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_152": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_153": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_154": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_155": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_156": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_157": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_158": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_159": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_160": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_161": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_162": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_163": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_164": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_165": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_166": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_167": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_168": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_169": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_170": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_171": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_172": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_173": {
+      "resultado": "error_normalizacion",
+      "motivo": "Mediciones o fecha nulas"
+    },
+    "proveedor_a_174": {
+      "resultado": "error_normalizacion",
+      "motivo": "Error de transformación: Invalid isoformat string: '09-XX-2026 25:61'"
+    },
+    "proveedor_a_175": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_a_176": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_177": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_178": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_179": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_180": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_181": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_182": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_183": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_184": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_185": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_186": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_187": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_188": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_189": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_190": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_191": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_192": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_193": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_194": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_195": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_196": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_197": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_198": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_199": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_a_200": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_1": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_2": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_3": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_4": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_b_5": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_6": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_b_7": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_8": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_9": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_10": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_11": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_12": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_13": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_14": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_15": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_16": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_17": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_18": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_19": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_20": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_21": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_22": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_23": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_24": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_25": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_26": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_27": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_28": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_29": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_30": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_31": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_32": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_33": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_34": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_35": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_36": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_37": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_38": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_39": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_40": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_41": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_42": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_43": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_44": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_45": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_46": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_47": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_48": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_49": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_50": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_51": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_52": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_53": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_54": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_55": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_56": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_57": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_58": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_59": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_60": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_61": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_62": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_63": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_64": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_65": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_66": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_67": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_68": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_69": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_70": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_71": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_72": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_73": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_74": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_75": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_76": {
+      "resultado": "error_normalizacion",
+      "motivo": "Campos incompletos en CSV"
+    },
+    "proveedor_b_77": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_78": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_79": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_80": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_81": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_82": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_83": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_84": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_85": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_86": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_87": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_88": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_89": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_90": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_91": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_92": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_93": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_94": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_95": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_96": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_97": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_98": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_99": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_100": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_101": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_102": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_103": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_104": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_105": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_106": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_107": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_108": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_109": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_110": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_111": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_112": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_113": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_114": {
+      "resultado": "error_normalizacion",
+      "motivo": "Error de transformación: could not convert string to float: 'error'"
+    },
+    "proveedor_b_115": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_b_116": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_117": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_118": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_119": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_120": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_121": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_122": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_123": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_124": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_125": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_126": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_127": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_128": {
+      "resultado": "error_normalizacion",
+      "motivo": "Campos incompletos en CSV"
+    },
+    "proveedor_b_129": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_130": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_131": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_132": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_133": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_134": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_135": {
+      "resultado": "error_normalizacion",
+      "motivo": "Campos incompletos en CSV"
+    },
+    "proveedor_b_136": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_137": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_138": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_139": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_140": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_141": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_142": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_143": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_144": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_145": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_146": {
+      "resultado": "error_normalizacion",
+      "motivo": "Campos incompletos en CSV"
+    },
+    "proveedor_b_147": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_148": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_149": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_150": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_151": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_152": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_153": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_154": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_155": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_156": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_157": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_158": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_159": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_160": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_161": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_162": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_163": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_164": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_165": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_166": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_167": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_168": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_169": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_170": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_171": {
+      "resultado": "error_normalizacion",
+      "motivo": "Error de transformación: time data '31/13/2026 28:75' does not match format '%d/%m/%Y %H:%M'"
+    },
+    "proveedor_b_172": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_173": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_174": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_175": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_176": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_177": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_178": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_179": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_180": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_181": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_182": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_183": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_184": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_185": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_186": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_187": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_188": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_189": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_190": {
+      "resultado": "rechazado_localmente"
+    },
+    "proveedor_b_191": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_192": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_193": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_194": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_195": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_196": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_197": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_198": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_199": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    },
+    "proveedor_b_200": {
+      "resultado": "rechazado_api",
+      "status_code": 400,
+      "respuesta_api": {
+        "detail": "X-Equipo ausente o no autorizado"
+      }
+    }
+  }
+}
