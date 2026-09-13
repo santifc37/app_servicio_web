@@ -22,7 +22,7 @@ def test_transformacion_correcta():
     norm, err = normalizar_registro(raw_b)
     assert err is None
     assert norm["ciudad"] == "Medellin"
-    assert norm["fecha_hora"] == "2026-09-01T14:30:00"
+    assert norm["fecha_hora"] == "2026-09-01T14:30:00-05:00"
 
 def test_conversion_unidades():
     raw_a = {
