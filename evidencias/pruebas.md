@@ -1,6 +1,49 @@
 # Evidencias de pruebas — sensor ENV-003
 
-Generado: 2026-10-09T16:36:12.348658+00:00
+Generado: 2026-10-09T17:06:01.861438+00:00
+
+## 1. Recepción MQTT
+
+- **Entrada:** `Mensajes del tópico asignado al sensor ENV-003`
+- **Resultado:**
+
+```
+Registros encontrados para ENV-003:
+2026-10-09 09:57:17,749 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:18Z", "measurements": {"wind_speed": {"value": 16.78, "unit": "m/s"}, "wind_direction": {"value": 281.37, "unit": "deg"}}}
+2026-10-09 09:57:22,748 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:23Z", "measurements": {"wind_speed": {"value": 19.6, "unit": "m/s"}, "wind_direction": {"value": 176.69, "unit": "deg"}}}
+2026-10-09 09:57:27,751 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:28Z", "measurements": {"wind_speed": {"value": 15.89, "unit": "m/s"}, "wind_direction": {"value": 132.84, "unit": "deg"}}}
+2026-10-09 09:57:32,761 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:33Z", "measurements": {"wind_speed": {"value": 19.72, "unit": "m/s"}, "wind_direction": {"value": 296.33, "unit": "deg"}}}
+2026-10-09 09:57:37,784 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:38Z", "measurements": {"wind_speed": {"value": 7.74, "unit": "m/s"}, "wind_direction": {"value": 94.32, "unit": "deg"}}}
+2026-10-09 09:57:42,760 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:43Z", "measurements": {"wind_speed": {"value": 6.5, "unit": "m/s"}, "wind_direction": {"value": 116.74, "unit": "deg"}}}
+2026-10-09 09:57:47,791 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:48Z", "measurements": {"wind_speed": {"value": 0.18, "unit": "m/s"}, "wind_direction": {"value": 152.16, "unit": "deg"}}}
+2026-10-09 10:05:47,670 [INFO] Conectado a emqx.coriotlab.co:1883 y suscrito a iot/sensors/ENV-003/data
+2026-10-09 10:05:47,775 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T15:05:48Z", "measurements": {"wind_speed": {"value": 9.18, "unit": "m/s"}, "wind_direction": {"value": 125.22, "unit": "deg"}}}
+2026-10-09 10:05:52,813 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T15:05:53Z", "measurements": {"wind_speed": {"value": 1.95, "unit": "m/s"}, "wind_direction": {"value": 277.58, "unit": "deg"}}}
+```
+- **Implementación:** `app/mqtt/client.py` — `ConsumidorMqtt._on_message`
+- **Explicación:** Se consulta el registro de ejecución existente. La ausencia de registros no se considera una prueba superada.
+
+## 2. Medición válida almacenada en PostgreSQL
+
+- **Entrada:** `Consultar las últimas 5 mediciones de ENV-003`
+- **Resultado:**
+
+```
+VERIFICADO: existen mediciones almacenadas para ENV-003.
+Registros consultados: 5 (máximo 5).
+
+id | sensor | magnitud | unidad | valor | timestamp_utc
+(15026, 'ENV-003', 'wind_speed', 'm/s', Decimal('1.9500'), datetime.datetime(2026, 10, 9, 15, 5, 53, tzinfo=datetime.timezone.utc))
+(15027, 'ENV-003', 'wind_direction', 'deg', Decimal('277.5800'), datetime.datetime(2026, 10, 9, 15, 5, 53, tzinfo=datetime.timezone.utc))
+(15021, 'ENV-003', 'wind_speed', 'm/s', Decimal('9.1800'), datetime.datetime(2026, 10, 9, 15, 5, 48, tzinfo=datetime.timezone.utc))
+(15022, 'ENV-003', 'wind_direction', 'deg', Decimal('125.2200'), datetime.datetime(2026, 10, 9, 15, 5, 48, tzinfo=datetime.timezone.utc))
+(14743, 'ENV-003', 'wind_speed', 'm/s', Decimal('0.1800'), datetime.datetime(2026, 10, 9, 14, 57, 48, tzinfo=datetime.timezone.utc))
+
+Registros de almacenamiento MQTT:
+No se encontraron líneas ALMACENADO que mencionen explícitamente ENV-003.
+```
+- **Implementación:** `app/crud/medicion.py` — `insertar_mediciones`; `app/models/medicion.py` — modelo `Medicion`
+- **Explicación:** Se consultan registros reales de PostgreSQL mediante las claves foráneas y se añade evidencia del registro MQTT.
 
 ## 3. Sensor inexistente
 
@@ -8,11 +51,12 @@ Generado: 2026-10-09T16:36:12.348658+00:00
 - **Resultado:**
 
 ```
-RECHAZADO: Sensor inexistente: 'NOPE-999'
-mediciones antes=18088 después=18088 -> no almacenado OK
+RECHAZADO correctamente: Sensor inexistente: 'NOPE-999'
+mediciones antes=19114, después=19114
+No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
-- **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
+- **Explicación:** Se comprueba el rechazo y se compara el total de filas antes y después.
 
 ## 4. Unidad incorrecta
 
@@ -20,11 +64,12 @@ mediciones antes=18088 después=18088 -> no almacenado OK
 - **Resultado:**
 
 ```
-RECHAZADO: Unidad incorrecta en 'wind_speed': recibida 'km/h', esperada 'm/s'
-mediciones antes=18088 después=18088 -> no almacenado OK
+RECHAZADO correctamente: Unidad incorrecta en 'wind_speed': recibida 'km/h', esperada 'm/s'
+mediciones antes=19114, después=19114
+No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
-- **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
+- **Explicación:** Se comprueba el rechazo y se compara el total de filas antes y después.
 
 ## 5. Tipo de dato incorrecto
 
@@ -32,11 +77,12 @@ mediciones antes=18088 después=18088 -> no almacenado OK
 - **Resultado:**
 
 ```
-RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_speed.value.float: Input should be a valid number; measurements.wind_speed.value.int: Input should be a valid integer
-mediciones antes=18088 después=18088 -> no almacenado OK
+RECHAZADO correctamente: Estructura/tipos/timestamp inválidos: measurements.wind_speed.value.float: Input should be a valid number; measurements.wind_speed.value.int: Input should be a valid integer
+mediciones antes=19114, después=19114
+No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
-- **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
+- **Explicación:** Se comprueba el rechazo y se compara el total de filas antes y después.
 
 ## 6. Magnitud incorrecta
 
@@ -44,11 +90,12 @@ mediciones antes=18088 después=18088 -> no almacenado OK
 - **Resultado:**
 
 ```
-RECHAZADO: Magnitud 'magnitud_falsa' no pertenece al sensor 'ENV-003'
-mediciones antes=18088 después=18088 -> no almacenado OK
+RECHAZADO correctamente: Magnitud 'magnitud_falsa' no pertenece al sensor 'ENV-003'
+mediciones antes=19114, después=19114
+No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
-- **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
+- **Explicación:** Se comprueba el rechazo y se compara el total de filas antes y después.
 
 ## 7. Timestamp inválido
 
@@ -56,11 +103,12 @@ mediciones antes=18088 después=18088 -> no almacenado OK
 - **Resultado:**
 
 ```
-RECHAZADO: Estructura/tipos/timestamp inválidos: timestamp: Input should be a valid datetime or date, invalid character in year
-mediciones antes=18088 después=18088 -> no almacenado OK
+RECHAZADO correctamente: Estructura/tipos/timestamp inválidos: timestamp: Input should be a valid datetime or date, invalid character in year
+mediciones antes=19114, después=19114
+No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
-- **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
+- **Explicación:** Se comprueba el rechazo y se compara el total de filas antes y después.
 
 ## 8. Consulta por ID existente
 
@@ -78,7 +126,7 @@ HTTP 200
 }
 ```
 - **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `obtener_medicion`
-- **Explicación:** Incluye timestamp_utc y timestamp_local (UTC-5).
+- **Explicación:** La respuesta de una medición incluye timestamp UTC y hora local.
 
 ## 9. Consulta por ID inexistente
 
@@ -92,7 +140,7 @@ HTTP 404
 }
 ```
 - **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `obtener_medicion`
-- **Explicación:** Devuelve 404.
+- **Explicación:** Se espera HTTP 404.
 
 ## 10. Consulta histórica
 
@@ -180,7 +228,7 @@ HTTP 200
 ]
 ```
 - **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `listar_mediciones`
-- **Explicación:** Solo mediciones dentro del rango (inclusivo).
+- **Explicación:** Consulta el histórico con límites temporales.
 
 ## 12. Rango desde > hasta
 
@@ -194,7 +242,7 @@ HTTP 400
 }
 ```
 - **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `listar_mediciones`
-- **Explicación:** Devuelve 400.
+- **Explicación:** Se espera HTTP 400.
 
 ## 13. Validación HTTP incorrecta
 
@@ -217,8 +265,8 @@ HTTP 422
   ]
 }
 ```
-- **Implementación:** FastAPI/Pydantic — parámetro `limit` en `listar_mediciones`
-- **Explicación:** Devuelve 422.
+- **Implementación:** FastAPI/Pydantic — parámetro `limit`
+- **Explicación:** Se espera HTTP 422.
 
 ## 14. Última medición
 
@@ -268,7 +316,8 @@ HTTP 200
   }
 ]
 ```
-- **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `get_mediciones` (ORDER BY timestamp_utc DESC + LIMIT)
+- **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `get_mediciones`
+- **Explicación:** Comprueba la consulta limitada a tres registros.
 
 ## 16. Filtro por magnitud
 
@@ -323,18 +372,22 @@ HTTP 200
 - **Resultado:**
 
 ```
-Últimas filas (id, sensor_magnitud_id): [(18105, 1), (18104, 2), (18103, 3)]
-Magnitudes del sensor: [(101, 'wind_direction', 'deg'), (102, 'wind_speed', 'm/s')]
+Últimas filas relacionadas (medicion_id, sensor_magnitud_id, sensor_id, codigo):
+(15027, 101, 39, 'ENV-003')
+(15026, 102, 39, 'ENV-003')
+(15022, 101, 39, 'ENV-003')
 ```
-- **Implementación:** `app/models/*.py` — `ForeignKey(..., ondelete='RESTRICT')`
-- **Explicación:** Cada medición apunta a una configuración sensor↔magnitud, y esta a un sensor.
+- **Implementación:** `app/models/medicion.py`, `sensor_magnitud.py`, `sensor.py`
+- **Explicación:** Se consultan las relaciones reales mediante JOIN y las claves foráneas definidas en los modelos.
 
 ## 18. Separación de responsabilidades
 
-- **Entrada:** `estructura de app/`
+- **Entrada:** `Estructura de app/`
 - **Resultado:**
 
 ```
 schemas/ (Pydantic) · models/ (ORM) · crud/ (consultas) · api/ (rutas) · mqtt/ (consumidor) · database/ (conexión)
 ```
-- **Implementación:** Ver README, sección 5
+- **Implementación:** README.md, sección 5; estructura de directorios del proyecto
+- **Explicación:** Descripción de la organización modular del código.
+
