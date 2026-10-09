@@ -551,24 +551,68 @@ try:
         "foráneas definidas en los modelos.",
     )
 
+   
     # ================================================================
     # PRUEBA 18: SEPARACIÓN DE RESPONSABILIDADES
     # ================================================================
 
-    estructura = (
-        "schemas/ (Pydantic) · models/ (ORM) · crud/ (consultas) · "
-        "api/ (rutas) · mqtt/ (consumidor) · database/ (conexión)"
-    )
+    ruta_app = Path(__file__).resolve().parent.parent / "app"
+
+    def generar_arbol(directorio, prefijo=""):
+        """Genera el árbol real del directorio, sin archivos temporales."""
+        elementos = sorted(
+            [
+                elemento
+                for elemento in directorio.iterdir()
+                if elemento.name != "__pycache__"
+                and not (
+                    elemento.is_file()
+                    and elemento.suffix == ".pyc"
+                )
+            ],
+            key=lambda elemento: (
+                elemento.is_file(),
+                elemento.name.lower(),
+            ),
+        )
+
+        lineas = []
+
+        for indice, elemento in enumerate(elementos):
+            es_ultimo = indice == len(elementos) - 1
+            conector = "└── " if es_ultimo else "├── "
+            nombre = elemento.name + ("/" if elemento.is_dir() else "")
+
+            lineas.append(prefijo + conector + nombre)
+
+            if elemento.is_dir():
+                nuevo_prefijo = prefijo + (
+                    "    " if es_ultimo else "│   "
+                )
+                lineas.extend(
+                    generar_arbol(elemento, nuevo_prefijo)
+                )
+
+        return lineas
+
+    if ruta_app.is_dir():
+        estructura = "app/\n" + "\n".join(
+            generar_arbol(ruta_app)
+        )
+    else:
+        estructura = (
+            "NO VERIFICADO: no se encontró el directorio app/."
+        )
 
     seccion(
         18,
         "Separación de responsabilidades",
-        "Estructura de app/",
+        "Estructura real del directorio app/",
         estructura,
-        "README.md, sección 5; estructura de directorios del proyecto",
-        "Descripción de la organización modular del código.",
+        "`app/` — estructura real de directorios y archivos",
+        "El árbol se genera automáticamente a partir de los archivos "
+        "existentes. Se excluyen __pycache__ y los archivos .pyc.",
     )
-
     # ================================================================
     # ESCRITURA DEL INFORME
     # ================================================================

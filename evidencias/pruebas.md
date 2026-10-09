@@ -1,6 +1,6 @@
 # Evidencias de pruebas — sensor ENV-003
 
-Generado: 2026-10-09T17:34:22.967587+00:00
+Generado: 2026-10-09T17:58:54.364893+00:00
 
 ## 1. Recepción MQTT
 
@@ -33,11 +33,11 @@ VERIFICADO: existen mediciones almacenadas para ENV-003.
 Registros consultados: 5 (máximo 5).
 
 id | sensor | magnitud | unidad | valor | timestamp_utc
-(20596, 'ENV-003', 'wind_direction', 'deg', Decimal('186.5300'), datetime.datetime(2026, 10, 9, 17, 34, 3, tzinfo=datetime.timezone.utc))
 (20595, 'ENV-003', 'wind_speed', 'm/s', Decimal('13.5800'), datetime.datetime(2026, 10, 9, 17, 34, 3, tzinfo=datetime.timezone.utc))
-(20591, 'ENV-003', 'wind_direction', 'deg', Decimal('151.0800'), datetime.datetime(2026, 10, 9, 17, 33, 58, tzinfo=datetime.timezone.utc))
+(20596, 'ENV-003', 'wind_direction', 'deg', Decimal('186.5300'), datetime.datetime(2026, 10, 9, 17, 34, 3, tzinfo=datetime.timezone.utc))
 (20590, 'ENV-003', 'wind_speed', 'm/s', Decimal('16.5400'), datetime.datetime(2026, 10, 9, 17, 33, 58, tzinfo=datetime.timezone.utc))
-(20586, 'ENV-003', 'wind_direction', 'deg', Decimal('191.2400'), datetime.datetime(2026, 10, 9, 17, 33, 53, tzinfo=datetime.timezone.utc))
+(20591, 'ENV-003', 'wind_direction', 'deg', Decimal('151.0800'), datetime.datetime(2026, 10, 9, 17, 33, 58, tzinfo=datetime.timezone.utc))
+(20585, 'ENV-003', 'wind_speed', 'm/s', Decimal('0.6200'), datetime.datetime(2026, 10, 9, 17, 33, 53, tzinfo=datetime.timezone.utc))
 ```
 - **Implementación:** `app/crud/medicion.py` — `insertar_mediciones`; `app/models/medicion.py` — modelo `Medicion`
 - **Explicación:** Se consultan registros reales de PostgreSQL mediante las claves foráneas. No se insertan datos artificiales.
@@ -49,7 +49,7 @@ id | sensor | magnitud | unidad | valor | timestamp_utc
 
 ```
 RECHAZADO correctamente: Sensor inexistente: 'NOPE-999'
-mediciones antes=20591, después=20591
+mediciones antes=21419, después=21419
 No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
@@ -62,7 +62,7 @@ No hubo cambios en el total de mediciones.
 
 ```
 RECHAZADO correctamente: Unidad incorrecta en 'wind_speed': recibida 'km/h', esperada 'm/s'
-mediciones antes=20591, después=20591
+mediciones antes=21419, después=21419
 No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
@@ -75,7 +75,7 @@ No hubo cambios en el total de mediciones.
 
 ```
 RECHAZADO correctamente: Estructura/tipos/timestamp inválidos: measurements.wind_speed.value.float: Input should be a valid number; measurements.wind_speed.value.int: Input should be a valid integer
-mediciones antes=20591, después=20591
+mediciones antes=21419, después=21419
 No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
@@ -88,7 +88,7 @@ No hubo cambios en el total de mediciones.
 
 ```
 RECHAZADO correctamente: Magnitud 'magnitud_falsa' no pertenece al sensor 'ENV-003'
-mediciones antes=20591, después=20591
+mediciones antes=21419, después=21419
 No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
@@ -101,7 +101,7 @@ No hubo cambios en el total de mediciones.
 
 ```
 RECHAZADO correctamente: Estructura/tipos/timestamp inválidos: timestamp: Input should be a valid datetime or date, invalid character in year
-mediciones antes=20591, después=20591
+mediciones antes=21419, después=21419
 No hubo cambios en el total de mediciones.
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
@@ -148,13 +148,6 @@ HTTP 404
 HTTP 200
 [
   {
-    "id": 20596,
-    "sensor_magnitud_id": 101,
-    "valor": "186.5300",
-    "timestamp_utc": "2026-10-09T17:34:03Z",
-    "timestamp_local": "2026-10-09 12:34:03"
-  },
-  {
     "id": 20595,
     "sensor_magnitud_id": 102,
     "valor": "13.5800",
@@ -162,11 +155,11 @@ HTTP 200
     "timestamp_local": "2026-10-09 12:34:03"
   },
   {
-    "id": 20591,
+    "id": 20596,
     "sensor_magnitud_id": 101,
-    "valor": "151.0800",
-    "timestamp_utc": "2026-10-09T17:33:58Z",
-    "timestamp_local": "2026-10-09 12:33:58"
+    "valor": "186.5300",
+    "timestamp_utc": "2026-10-09T17:34:03Z",
+    "timestamp_local": "2026-10-09 12:34:03"
   },
   {
     "id": 20590,
@@ -176,9 +169,16 @@ HTTP 200
     "timestamp_local": "2026-10-09 12:33:58"
   },
   {
-    "id": 20586,
+    "id": 20591,
     "sensor_magnitud_id": 101,
-    "valor": "191.2400",
+    "valor": "151.0800",
+    "timestamp_utc": "2026-10-09T17:33:58Z",
+    "timestamp_local": "2026-10-09 12:33:58"
+  },
+  {
+    "id": 20585,
+    "sensor_magnitud_id": 102,
+    "valor": "0.6200",
     "timestamp_utc": "2026-10-09T17:33:53Z",
     "timestamp_local": "2026-10-09 12:33:53"
   }
@@ -195,13 +195,6 @@ HTTP 200
 HTTP 200
 [
   {
-    "id": 20596,
-    "sensor_magnitud_id": 101,
-    "valor": "186.5300",
-    "timestamp_utc": "2026-10-09T17:34:03Z",
-    "timestamp_local": "2026-10-09 12:34:03"
-  },
-  {
     "id": 20595,
     "sensor_magnitud_id": 102,
     "valor": "13.5800",
@@ -209,11 +202,11 @@ HTTP 200
     "timestamp_local": "2026-10-09 12:34:03"
   },
   {
-    "id": 20591,
+    "id": 20596,
     "sensor_magnitud_id": 101,
-    "valor": "151.0800",
-    "timestamp_utc": "2026-10-09T17:33:58Z",
-    "timestamp_local": "2026-10-09 12:33:58"
+    "valor": "186.5300",
+    "timestamp_utc": "2026-10-09T17:34:03Z",
+    "timestamp_local": "2026-10-09 12:34:03"
   },
   {
     "id": 20590,
@@ -223,15 +216,22 @@ HTTP 200
     "timestamp_local": "2026-10-09 12:33:58"
   },
   {
-    "id": 20586,
+    "id": 20591,
     "sensor_magnitud_id": 101,
-    "valor": "191.2400",
+    "valor": "151.0800",
+    "timestamp_utc": "2026-10-09T17:33:58Z",
+    "timestamp_local": "2026-10-09 12:33:58"
+  },
+  {
+    "id": 20585,
+    "sensor_magnitud_id": 102,
+    "valor": "0.6200",
     "timestamp_utc": "2026-10-09T17:33:53Z",
     "timestamp_local": "2026-10-09 12:33:53"
   },
   {
-    "id": 20585,
-    "sensor_magnitu
+    "id": 20586,
+    "sensor_magnitud_
 ... (recortado)
 ```
 - **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `listar_mediciones`
@@ -283,9 +283,9 @@ HTTP 422
 ```
 HTTP 200
 {
-  "id": 20596,
-  "sensor_magnitud_id": 101,
-  "valor": "186.5300",
+  "id": 20595,
+  "sensor_magnitud_id": 102,
+  "valor": "13.5800",
   "timestamp_utc": "2026-10-09T17:34:03Z",
   "timestamp_local": "2026-10-09 12:34:03"
 }
@@ -301,13 +301,6 @@ HTTP 200
 HTTP 200
 [
   {
-    "id": 20596,
-    "sensor_magnitud_id": 101,
-    "valor": "186.5300",
-    "timestamp_utc": "2026-10-09T17:34:03Z",
-    "timestamp_local": "2026-10-09 12:34:03"
-  },
-  {
     "id": 20595,
     "sensor_magnitud_id": 102,
     "valor": "13.5800",
@@ -315,9 +308,16 @@ HTTP 200
     "timestamp_local": "2026-10-09 12:34:03"
   },
   {
-    "id": 20591,
+    "id": 20596,
     "sensor_magnitud_id": 101,
-    "valor": "151.0800",
+    "valor": "186.5300",
+    "timestamp_utc": "2026-10-09T17:34:03Z",
+    "timestamp_local": "2026-10-09 12:34:03"
+  },
+  {
+    "id": 20590,
+    "sensor_magnitud_id": 102,
+    "valor": "16.5400",
     "timestamp_utc": "2026-10-09T17:33:58Z",
     "timestamp_local": "2026-10-09 12:33:58"
   }
@@ -389,12 +389,33 @@ HTTP 200
 
 ## 18. Separación de responsabilidades
 
-- **Entrada:** `Estructura de app/`
+- **Entrada:** `Estructura real del directorio app/`
 - **Resultado:**
 
 ```
-schemas/ (Pydantic) · models/ (ORM) · crud/ (consultas) · api/ (rutas) · mqtt/ (consumidor) · database/ (conexión)
+app/
+├── api/
+│   ├── medicion.py
+│   ├── sensor.py
+│   └── sensor_magnitud.py
+├── crud/
+│   ├── medicion.py
+│   ├── sensor.py
+│   └── sensor_magnitud.py
+├── database/
+│   └── connection.py
+├── models/
+│   ├── medicion.py
+│   ├── sensor.py
+│   └── sensor_magnitud.py
+├── mqtt/
+│   └── client.py
+├── schemas/
+│   ├── medicion.py
+│   ├── sensor.py
+│   └── sensor_magnitud.py
+└── main.py
 ```
-- **Implementación:** README.md, sección 5; estructura de directorios del proyecto
-- **Explicación:** Descripción de la organización modular del código.
+- **Implementación:** `app/` — estructura real de directorios y archivos
+- **Explicación:** El árbol se genera automáticamente a partir de los archivos existentes. Se excluyen __pycache__ y los archivos .pyc.
 
