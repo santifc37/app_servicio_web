@@ -47,12 +47,12 @@ total = lambda: db.scalar(select(func.count()).select_from(Medicion))
 
 # ---- Rechazos MQTT (3-7) -------------------------------------------------
 base = {"sensor_id": CODIGO, "timestamp": "2026-10-09T14:00:00Z",
-        "measurements": {"temperature": {"value": 24.6, "unit": "C"}}}
+        "measurements": {"wind_speed": {"value": 12.5, "unit": "m/s"}}}
 casos = [
     (3, "Sensor inexistente", {**base, "sensor_id": "NOPE-999"}),
-    (4, "Unidad incorrecta", {**base, "measurements": {"temperature": {"value": 24.6, "unit": "ZZ"}}}),
-    (5, "Tipo de dato incorrecto", {**base, "measurements": {"temperature": {"value": "caliente", "unit": "C"}}}),
-    (6, "Magnitud incorrecta", {**base, "measurements": {"magnitud_falsa": {"value": 1, "unit": "C"}}}),
+    (4, "Unidad incorrecta", {**base, "measurements": {"wind_speed": {"value": 12.5, "unit": "km/h"}}}),
+    (5, "Tipo de dato incorrecto", {**base, "measurements": {"wind_speed": {"value": "caliente", "unit": "m/s"}}}),
+    (6, "Magnitud incorrecta", {**base, "measurements": {"magnitud_falsa": {"value": 1, "unit": "m/s"}}}),
     (7, "Timestamp inválido", {**base, "timestamp": "no-es-fecha"}),
 ]
 for num, titulo, payload in casos:
@@ -111,7 +111,7 @@ r, t = get(f"/sensores/{sid}/mediciones", limit=3)
 seccion(15, "Últimas N mediciones", f"GET /sensores/{sid}/mediciones?limit=3", t,
         f"{ref_api} — `get_mediciones` (ORDER BY timestamp_utc DESC + LIMIT)")
 mags = c.get(f"/sensores/{sid}/magnitudes").json()
-mag = mags[0]["magnitud"] if mags else "temperature"
+mag = mags[0]["magnitud"] if mags else "wind_speed"
 r, t = get(f"/sensores/{sid}/mediciones", magnitud=mag, limit=5)
 seccion(16, "Filtro por magnitud", f"GET /sensores/{sid}/mediciones?magnitud={mag}&limit=5", t,
         f"{ref_api} — `_ids_magnitudes_del_sensor`")

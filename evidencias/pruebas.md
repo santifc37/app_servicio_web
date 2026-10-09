@@ -1,52 +1,15 @@
 # Evidencias de pruebas — sensor ENV-003
 
-Generado: 2026-10-09T14:58:36.988081+00:00
-
-## 1. Recepción MQTT desde el tópico asignado
-
-- **Entrada:** Suscripción al tópico `iot/sensors/ENV-003/data`
-- **Resultado:**
-
-```json
-{
-  "sensor_id": "ENV-003",
-  "timestamp": "2026-10-09T14:57:48Z",
-  "measurements": {
-    "wind_direction": {
-      "value": 152.16,
-      "unit": "deg"
-    },
-    "wind_speed": {
-      "value": 0.18,
-      "unit": "m/s"
-    }
-  }
-}
-```
-- **Implementación:** `app/mqtt/client.py` — `on_message`
-- **Explicación:** Mensaje en formato JSON recibido correctamente desde el broker MQTT en el tópico asignado.
-
-## 2. Medición válida almacenada en PostgreSQL
-
-- **Entrada:** Payload válido de la prueba 1.
-- **Resultado:**
-
-```
-Procesando payload para ENV-003...
-Insertando mediciones para sensor_magnitud_id 101 (wind_direction) y 102 (wind_speed).
-Registros insertados correctamente en PostgreSQL.
-```
-- **Implementación:** `app/mqtt/client.py` / `app/crud/medicion.py` — `procesar_mensaje` / `crear_medicion`
-- **Explicación:** Los datos superan las validaciones de Pydantic y ORM, guardando cada magnitud como una fila en la tabla `mediciones`.
+Generado: 2026-10-09T16:36:12.348658+00:00
 
 ## 3. Sensor inexistente
 
-- **Entrada:** `{"sensor_id": "NOPE-999", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"temperature": {"value": 24.6, "unit": "C"}}}`
+- **Entrada:** `{"sensor_id": "NOPE-999", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"wind_speed": {"value": 12.5, "unit": "m/s"}}}`
 - **Resultado:**
 
 ```
 RECHAZADO: Sensor inexistente: 'NOPE-999'
-mediciones antes=14754 después=14754 -> no almacenado OK
+mediciones antes=18088 después=18088 -> no almacenado OK
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
 - **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
@@ -57,45 +20,44 @@ mediciones antes=14754 después=14754 -> no almacenado OK
 - **Resultado:**
 
 ```
-RECHAZADO: Unidad 'km/h' no válida para la magnitud 'wind_speed' (esperada: 'm/s')
-mediciones antes=14754 después=14754 -> no almacenado OK
+RECHAZADO: Unidad incorrecta en 'wind_speed': recibida 'km/h', esperada 'm/s'
+mediciones antes=18088 después=18088 -> no almacenado OK
 ```
-
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
-- **Explicación:** La unidad enviada (`km/h`) no coincide con la unidad configurada en PostgreSQL para la magnitud `wind_speed` del sensor `ENV-003` (`m/s`), por lo que el mensaje es rechazado y no se insertan registros.
+- **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
 
 ## 5. Tipo de dato incorrecto
 
-- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"temperature": {"value": "caliente", "unit": "C"}}}`
+- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"wind_speed": {"value": "caliente", "unit": "m/s"}}}`
 - **Resultado:**
 
 ```
-RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.temperature.value.float: Input should be a valid number; measurements.temperature.value.int: Input should be a valid integer
-mediciones antes=14754 después=14754 -> no almacenado OK
+RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_speed.value.float: Input should be a valid number; measurements.wind_speed.value.int: Input should be a valid integer
+mediciones antes=18088 después=18088 -> no almacenado OK
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
 - **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
 
 ## 6. Magnitud incorrecta
 
-- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"magnitud_falsa": {"value": 1, "unit": "C"}}}`
+- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"magnitud_falsa": {"value": 1, "unit": "m/s"}}}`
 - **Resultado:**
 
 ```
 RECHAZADO: Magnitud 'magnitud_falsa' no pertenece al sensor 'ENV-003'
-mediciones antes=14754 después=14754 -> no almacenado OK
+mediciones antes=18088 después=18088 -> no almacenado OK
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
 - **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
 
 ## 7. Timestamp inválido
 
-- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "no-es-fecha", "measurements": {"temperature": {"value": 24.6, "unit": "C"}}}`
+- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "no-es-fecha", "measurements": {"wind_speed": {"value": 12.5, "unit": "m/s"}}}`
 - **Resultado:**
 
 ```
 RECHAZADO: Estructura/tipos/timestamp inválidos: timestamp: Input should be a valid datetime or date, invalid character in year
-mediciones antes=14754 después=14754 -> no almacenado OK
+mediciones antes=18088 después=18088 -> no almacenado OK
 ```
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
 - **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
@@ -141,11 +103,32 @@ HTTP 404
 HTTP 200
 [
   {
-    "id": 14744,
+    "id": 15026,
+    "sensor_magnitud_id": 102,
+    "valor": "1.9500",
+    "timestamp_utc": "2026-10-09T15:05:53Z",
+    "timestamp_local": "2026-10-09 10:05:53"
+  },
+  {
+    "id": 15027,
     "sensor_magnitud_id": 101,
-    "valor": "152.1600",
-    "timestamp_utc": "2026-10-09T14:57:48Z",
-    "timestamp_local": "2026-10-09 09:57:48"
+    "valor": "277.5800",
+    "timestamp_utc": "2026-10-09T15:05:53Z",
+    "timestamp_local": "2026-10-09 10:05:53"
+  },
+  {
+    "id": 15021,
+    "sensor_magnitud_id": 102,
+    "valor": "9.1800",
+    "timestamp_utc": "2026-10-09T15:05:48Z",
+    "timestamp_local": "2026-10-09 10:05:48"
+  },
+  {
+    "id": 15022,
+    "sensor_magnitud_id": 101,
+    "valor": "125.2200",
+    "timestamp_utc": "2026-10-09T15:05:48Z",
+    "timestamp_local": "2026-10-09 10:05:48"
   },
   {
     "id": 14743,
@@ -153,27 +136,6 @@ HTTP 200
     "valor": "0.1800",
     "timestamp_utc": "2026-10-09T14:57:48Z",
     "timestamp_local": "2026-10-09 09:57:48"
-  },
-  {
-    "id": 14739,
-    "sensor_magnitud_id": 101,
-    "valor": "116.7400",
-    "timestamp_utc": "2026-10-09T14:57:43Z",
-    "timestamp_local": "2026-10-09 09:57:43"
-  },
-  {
-    "id": 14738,
-    "sensor_magnitud_id": 102,
-    "valor": "6.5000",
-    "timestamp_utc": "2026-10-09T14:57:43Z",
-    "timestamp_local": "2026-10-09 09:57:43"
-  },
-  {
-    "id": 14734,
-    "sensor_magnitud_id": 101,
-    "valor": "94.3200",
-    "timestamp_utc": "2026-10-09T14:57:38Z",
-    "timestamp_local": "2026-10-09 09:57:38"
   }
 ]
 ```
@@ -181,46 +143,39 @@ HTTP 200
 
 ## 11. Consulta por rango de fechas
 
-- **Entrada:** `GET /sensores/39/mediciones?desde=2026-10-09T14:52:48+00:00&hasta=2026-10-09T14:57:48+00:00`
+- **Entrada:** `GET /sensores/39/mediciones?desde=2026-10-09T15:00:53+00:00&hasta=2026-10-09T15:05:53+00:00`
 - **Resultado:**
 
 ```
 HTTP 200
 [
   {
-    "id": 14744,
-    "sensor_magnitud_id": 101,
-    "valor": "152.1600",
-    "timestamp_utc": "2026-10-09T14:57:48Z",
-    "timestamp_local": "2026-10-09 09:57:48"
-  },
-  {
-    "id": 14743,
+    "id": 15026,
     "sensor_magnitud_id": 102,
-    "valor": "0.1800",
-    "timestamp_utc": "2026-10-09T14:57:48Z",
-    "timestamp_local": "2026-10-09 09:57:48"
+    "valor": "1.9500",
+    "timestamp_utc": "2026-10-09T15:05:53Z",
+    "timestamp_local": "2026-10-09 10:05:53"
   },
   {
-    "id": 14739,
+    "id": 15027,
     "sensor_magnitud_id": 101,
-    "valor": "116.7400",
-    "timestamp_utc": "2026-10-09T14:57:43Z",
-    "timestamp_local": "2026-10-09 09:57:43"
+    "valor": "277.5800",
+    "timestamp_utc": "2026-10-09T15:05:53Z",
+    "timestamp_local": "2026-10-09 10:05:53"
   },
   {
-    "id": 14738,
+    "id": 15021,
     "sensor_magnitud_id": 102,
-    "valor": "6.5000",
-    "timestamp_utc": "2026-10-09T14:57:43Z",
-    "timestamp_local": "2026-10-09 09:57:43"
+    "valor": "9.1800",
+    "timestamp_utc": "2026-10-09T15:05:48Z",
+    "timestamp_local": "2026-10-09 10:05:48"
   },
   {
-    "id": 14734,
+    "id": 15022,
     "sensor_magnitud_id": 101,
-    "valor": "94.3200",
-    "timestamp_utc": "2026-10-09T14:57:38Z",
-    "timestamp_local": "2026-10-09 09:57:38"
+    "valor": "125.2200",
+    "timestamp_utc": "2026-10-09T15:05:48Z",
+    "timestamp_local": "2026-10-09 10:05:48"
   }
 ]
 ```
@@ -229,7 +184,7 @@ HTTP 200
 
 ## 12. Rango desde > hasta
 
-- **Entrada:** `GET /sensores/39/mediciones?desde=2026-10-09T14:57:48+00:00&hasta=2026-10-09T14:52:48+00:00`
+- **Entrada:** `GET /sensores/39/mediciones?desde=2026-10-09T15:05:53+00:00&hasta=2026-10-09T15:00:53+00:00`
 - **Resultado:**
 
 ```
@@ -273,11 +228,11 @@ HTTP 422
 ```
 HTTP 200
 {
-  "id": 14744,
-  "sensor_magnitud_id": 101,
-  "valor": "152.1600",
-  "timestamp_utc": "2026-10-09T14:57:48Z",
-  "timestamp_local": "2026-10-09 09:57:48"
+  "id": 15026,
+  "sensor_magnitud_id": 102,
+  "valor": "1.9500",
+  "timestamp_utc": "2026-10-09T15:05:53Z",
+  "timestamp_local": "2026-10-09 10:05:53"
 }
 ```
 - **Implementación:** `app/api/medicion.py` / `app/crud/medicion.py` — `obtener_ultima_medicion` / `get_ultima_medicion`
@@ -291,25 +246,25 @@ HTTP 200
 HTTP 200
 [
   {
-    "id": 14743,
+    "id": 15026,
     "sensor_magnitud_id": 102,
-    "valor": "0.1800",
-    "timestamp_utc": "2026-10-09T14:57:48Z",
-    "timestamp_local": "2026-10-09 09:57:48"
+    "valor": "1.9500",
+    "timestamp_utc": "2026-10-09T15:05:53Z",
+    "timestamp_local": "2026-10-09 10:05:53"
   },
   {
-    "id": 14744,
+    "id": 15027,
     "sensor_magnitud_id": 101,
-    "valor": "152.1600",
-    "timestamp_utc": "2026-10-09T14:57:48Z",
-    "timestamp_local": "2026-10-09 09:57:48"
+    "valor": "277.5800",
+    "timestamp_utc": "2026-10-09T15:05:53Z",
+    "timestamp_local": "2026-10-09 10:05:53"
   },
   {
-    "id": 14739,
-    "sensor_magnitud_id": 101,
-    "valor": "116.7400",
-    "timestamp_utc": "2026-10-09T14:57:43Z",
-    "timestamp_local": "2026-10-09 09:57:43"
+    "id": 15021,
+    "sensor_magnitud_id": 102,
+    "valor": "9.1800",
+    "timestamp_utc": "2026-10-09T15:05:48Z",
+    "timestamp_local": "2026-10-09 10:05:48"
   }
 ]
 ```
@@ -323,6 +278,20 @@ HTTP 200
 ```
 HTTP 200
 [
+  {
+    "id": 15027,
+    "sensor_magnitud_id": 101,
+    "valor": "277.5800",
+    "timestamp_utc": "2026-10-09T15:05:53Z",
+    "timestamp_local": "2026-10-09 10:05:53"
+  },
+  {
+    "id": 15022,
+    "sensor_magnitud_id": 101,
+    "valor": "125.2200",
+    "timestamp_utc": "2026-10-09T15:05:48Z",
+    "timestamp_local": "2026-10-09 10:05:48"
+  },
   {
     "id": 14744,
     "sensor_magnitud_id": 101,
@@ -343,20 +312,6 @@ HTTP 200
     "valor": "94.3200",
     "timestamp_utc": "2026-10-09T14:57:38Z",
     "timestamp_local": "2026-10-09 09:57:38"
-  },
-  {
-    "id": 14729,
-    "sensor_magnitud_id": 101,
-    "valor": "296.3300",
-    "timestamp_utc": "2026-10-09T14:57:33Z",
-    "timestamp_local": "2026-10-09 09:57:33"
-  },
-  {
-    "id": 14724,
-    "sensor_magnitud_id": 101,
-    "valor": "132.8400",
-    "timestamp_utc": "2026-10-09T14:57:28Z",
-    "timestamp_local": "2026-10-09 09:57:28"
   }
 ]
 ```
@@ -368,7 +323,7 @@ HTTP 200
 - **Resultado:**
 
 ```
-Últimas filas (id, sensor_magnitud_id): [(14771, 101), (14770, 102)]
+Últimas filas (id, sensor_magnitud_id): [(18105, 1), (18104, 2), (18103, 3)]
 Magnitudes del sensor: [(101, 'wind_direction', 'deg'), (102, 'wind_speed', 'm/s')]
 ```
 - **Implementación:** `app/models/*.py` — `ForeignKey(..., ondelete='RESTRICT')`
