@@ -1,0 +1,484 @@
+2026-10-09 09:37:59,756 [INFO] Conectado a emqx.coriotlab.co:1883 y suscrito a iot/sensors/ENV-003/data
+2026-10-09 09:38:02,677 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:02Z", "measurements": {"wind_speed": {"value": 3.16, "unit": "m/s"}, "wind_direction": {"value": 295.47, "unit": "deg"}}}
+2026-10-09 09:38:03,131 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.16, mag_id=101 valor=295.47
+2026-10-09 09:38:07,655 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:07Z", "measurements": {"wind_speed": {"value": 17.72, "unit": "m/s"}, "wind_direction": {"value": 84.55, "unit": "deg"}}}
+2026-10-09 09:38:07,763 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.72, mag_id=101 valor=84.55
+2026-10-09 09:38:12,653 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:12Z", "measurements": {"wind_speed": {"value": 0.47, "unit": "m/s"}, "wind_direction": {"value": 9.97, "unit": "deg"}}}
+2026-10-09 09:38:12,745 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.47, mag_id=101 valor=9.97
+2026-10-09 09:38:17,675 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:17Z", "measurements": {"wind_speed": {"value": 6.5, "unit": "m/s"}, "wind_direction": {"value": 297.65, "unit": "deg"}}}
+2026-10-09 09:38:17,761 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.5, mag_id=101 valor=297.65
+2026-10-09 09:38:22,658 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:22Z", "measurements": {"wind_speed": {"value": 4.98, "unit": "m/s"}, "wind_direction": {"value": 319.8, "unit": "deg"}}}
+2026-10-09 09:38:22,785 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.98, mag_id=101 valor=319.8
+2026-10-09 09:38:27,671 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:27Z", "measurements": {"wind_speed": {"value": 2.84, "unit": "m/s"}, "wind_direction": {"value": 333.41, "unit": "deg"}}}
+2026-10-09 09:38:27,759 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.84, mag_id=101 valor=333.41
+2026-10-09 09:38:32,649 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:32Z", "measurements": {"wind_speed": {"value": 4.96, "unit": "m/s"}, "wind_direction": {"value": 327.31, "unit": "deg"}}}
+2026-10-09 09:38:32,757 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.96, mag_id=101 valor=327.31
+2026-10-09 09:38:37,648 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:37Z", "measurements": {"wind_speed": {"value": 2.53, "unit": "m/s"}, "wind_direction": {"value": 293.9, "unit": "deg"}}}
+2026-10-09 09:38:37,740 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.53, mag_id=101 valor=293.9
+2026-10-09 09:38:42,666 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:42Z", "measurements": {"wind_speed": {"value": 1.93, "unit": "m/s"}, "wind_direction": {"value": 4.67, "unit": "deg"}}}
+2026-10-09 09:38:42,764 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.93, mag_id=101 valor=4.67
+2026-10-09 09:38:47,659 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:47Z", "measurements": {"wind_speed": {"value": 4.71, "unit": "m/s"}, "wind_direction": {"value": 56.87, "unit": "deg"}}}
+2026-10-09 09:38:47,746 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.71, mag_id=101 valor=56.87
+2026-10-09 09:38:52,658 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:52Z", "measurements": {"wind_speed": {"value": 14.89, "unit": "m/s"}, "wind_direction": {"value": 106.89, "unit": "deg"}}}
+2026-10-09 09:38:52,803 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.89, mag_id=101 valor=106.89
+2026-10-09 09:38:57,655 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:38:57Z", "measurements": {"wind_speed": {"value": 6.39, "unit": "m/s"}, "wind_direction": {"value": 213.29, "unit": "deg"}}}
+2026-10-09 09:38:57,761 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.39, mag_id=101 valor=213.29
+2026-10-09 09:39:02,674 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:02Z", "measurements": {"wind_speed": {"value": 12.55, "unit": "m/s"}, "wind_direction": {"value": 314.01, "unit": "deg"}}}
+2026-10-09 09:39:02,807 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.55, mag_id=101 valor=314.01
+2026-10-09 09:39:07,676 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:07Z", "measurements": {"wind_speed": {"value": 14.44, "unit": "m/s"}, "wind_direction": {"value": 154.26, "unit": "deg"}}}
+2026-10-09 09:39:07,767 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.44, mag_id=101 valor=154.26
+2026-10-09 09:39:12,662 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:12Z", "measurements": {"wind_speed": {"value": 12.33, "unit": "m/s"}, "wind_direction": {"value": 13.41, "unit": "deg"}}}
+2026-10-09 09:39:12,758 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.33, mag_id=101 valor=13.41
+2026-10-09 09:39:17,679 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:17Z", "measurements": {"wind_speed": {"value": 6.33, "unit": "m/s"}, "wind_direction": {"value": 233.27, "unit": "deg"}}}
+2026-10-09 09:39:17,782 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.33, mag_id=101 valor=233.27
+2026-10-09 09:39:22,676 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:22Z", "measurements": {"wind_speed": {"value": 18.86, "unit": "m/s"}, "wind_direction": {"value": 42.99, "unit": "deg"}}}
+2026-10-09 09:39:22,764 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.86, mag_id=101 valor=42.99
+2026-10-09 09:39:27,670 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:27Z", "measurements": {"wind_speed": {"value": 14.72, "unit": "m/s"}, "wind_direction": {"value": 115.99, "unit": "deg"}}}
+2026-10-09 09:39:27,780 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.72, mag_id=101 valor=115.99
+2026-10-09 09:39:32,661 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:32Z", "measurements": {"wind_speed": {"value": 16.23, "unit": "m/s"}, "wind_direction": {"value": 261.23, "unit": "deg"}}}
+2026-10-09 09:39:32,770 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.23, mag_id=101 valor=261.23
+2026-10-09 09:39:37,674 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:37Z", "measurements": {"wind_speed": {"value": 7.69, "unit": "m/s"}, "wind_direction": {"value": 3.78, "unit": "deg"}}}
+2026-10-09 09:39:37,769 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.69, mag_id=101 valor=3.78
+2026-10-09 09:39:42,653 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:42Z", "measurements": {"wind_speed": {"value": 4.61, "unit": "m/s"}, "wind_direction": {"value": 236.52, "unit": "deg"}}}
+2026-10-09 09:39:42,751 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.61, mag_id=101 valor=236.52
+2026-10-09 09:39:47,720 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:47Z", "measurements": {"wind_speed": {"value": 3.43, "unit": "m/s"}, "wind_direction": {"value": 32.07, "unit": "deg"}}}
+2026-10-09 09:39:47,817 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.43, mag_id=101 valor=32.07
+2026-10-09 09:39:52,668 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:52Z", "measurements": {"wind_speed": {"value": 3.87, "unit": "m/s"}, "wind_direction": {"value": 356.23, "unit": "deg"}}}
+2026-10-09 09:39:52,774 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.87, mag_id=101 valor=356.23
+2026-10-09 09:39:57,664 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:39:57Z", "measurements": {"wind_speed": {"value": 12.24, "unit": "m/s"}, "wind_direction": {"value": 112.98, "unit": "deg"}}}
+2026-10-09 09:39:57,773 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.24, mag_id=101 valor=112.98
+2026-10-09 09:40:02,675 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:02Z", "measurements": {"wind_speed": {"value": 11.37, "unit": "m/s"}, "wind_direction": {"value": 10.39, "unit": "deg"}}}
+2026-10-09 09:40:02,780 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.37, mag_id=101 valor=10.39
+2026-10-09 09:40:07,663 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:07Z", "measurements": {"wind_speed": {"value": 3.34, "unit": "m/s"}, "wind_direction": {"value": 155.01, "unit": "deg"}}}
+2026-10-09 09:40:07,779 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.34, mag_id=101 valor=155.01
+2026-10-09 09:40:12,664 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:12Z", "measurements": {"wind_speed": {"value": 4.38, "unit": "m/s"}, "wind_direction": {"value": 338.69, "unit": "deg"}}}
+2026-10-09 09:40:12,761 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.38, mag_id=101 valor=338.69
+2026-10-09 09:40:17,668 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:17Z", "measurements": {"wind_speed": {"value": 18.3, "unit": "m/s"}, "wind_direction": {"value": 143.05, "unit": "deg"}}}
+2026-10-09 09:40:17,769 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.3, mag_id=101 valor=143.05
+2026-10-09 09:40:22,698 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:22Z", "measurements": {"wind_speed": {"value": 15.26, "unit": "m/s"}, "wind_direction": {"value": 291.94, "unit": "deg"}}}
+2026-10-09 09:40:22,801 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.26, mag_id=101 valor=291.94
+2026-10-09 09:40:27,677 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:27Z", "measurements": {"wind_speed": {"value": 1.74, "unit": "m/s"}, "wind_direction": {"value": 110.13, "unit": "deg"}}}
+2026-10-09 09:40:27,784 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.74, mag_id=101 valor=110.13
+2026-10-09 09:40:32,668 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:32Z", "measurements": {"wind_speed": {"value": 5.28, "unit": "m/s"}, "wind_direction": {"value": 249.61, "unit": "deg"}}}
+2026-10-09 09:40:32,765 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.28, mag_id=101 valor=249.61
+2026-10-09 09:40:37,668 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:37Z", "measurements": {"wind_speed": {"value": 3.41, "unit": "m/s"}, "wind_direction": {"value": 260.54, "unit": "deg"}}}
+2026-10-09 09:40:37,756 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.41, mag_id=101 valor=260.54
+2026-10-09 09:40:42,673 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:42Z", "measurements": {"wind_speed": {"value": 19.95, "unit": "m/s"}, "wind_direction": {"value": 101.97, "unit": "deg"}}}
+2026-10-09 09:40:42,772 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.95, mag_id=101 valor=101.97
+2026-10-09 09:40:47,708 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:47Z", "measurements": {"wind_speed": {"value": 15.91, "unit": "m/s"}, "wind_direction": {"value": 150.31, "unit": "deg"}}}
+2026-10-09 09:40:47,804 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.91, mag_id=101 valor=150.31
+2026-10-09 09:40:52,667 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:52Z", "measurements": {"wind_speed": {"value": 1.18, "unit": "m/s"}, "wind_direction": {"value": 302.24, "unit": "deg"}}}
+2026-10-09 09:40:52,753 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.18, mag_id=101 valor=302.24
+2026-10-09 09:40:57,670 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:40:57Z", "measurements": {"wind_speed": {"value": 3.04, "unit": "m/s"}, "wind_direction": {"value": 226.19, "unit": "deg"}}}
+2026-10-09 09:40:57,768 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.04, mag_id=101 valor=226.19
+2026-10-09 09:41:02,671 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:02Z", "measurements": {"wind_speed": {"value": 4.71, "unit": "m/s"}, "wind_direction": {"value": 314.96, "unit": "deg"}}}
+2026-10-09 09:41:02,796 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.71, mag_id=101 valor=314.96
+2026-10-09 09:41:07,658 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:07Z", "measurements": {"wind_speed": {"value": 6.42, "unit": "m/s"}, "wind_direction": {"value": 238.29, "unit": "deg"}}}
+2026-10-09 09:41:07,749 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.42, mag_id=101 valor=238.29
+2026-10-09 09:41:12,677 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:12Z", "measurements": {"wind_speed": {"value": 4.0, "unit": "m/s"}, "wind_direction": {"value": 122.27, "unit": "deg"}}}
+2026-10-09 09:41:12,773 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.0, mag_id=101 valor=122.27
+2026-10-09 09:41:17,671 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:17Z", "measurements": {"wind_speed": {"value": 2.14, "unit": "m/s"}, "wind_direction": {"value": 305.46, "unit": "deg"}}}
+2026-10-09 09:41:17,764 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.14, mag_id=101 valor=305.46
+2026-10-09 09:41:22,669 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:22Z", "measurements": {"wind_speed": {"value": 13.9, "unit": "m/s"}, "wind_direction": {"value": 82.39, "unit": "deg"}}}
+2026-10-09 09:41:22,755 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.9, mag_id=101 valor=82.39
+2026-10-09 09:41:27,673 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:27Z", "measurements": {"wind_speed": {"value": 10.77, "unit": "m/s"}, "wind_direction": {"unit": "deg"}}}
+2026-10-09 09:41:27,674 [WARNING] RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_direction.value: Field required
+2026-10-09 09:41:32,677 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:32Z", "measurements": {"wind_speed": {"value": 1.06, "unit": "m/s"}, "wind_direction": {"value": 264.09, "unit": "deg"}}}
+2026-10-09 09:41:32,769 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.06, mag_id=101 valor=264.09
+2026-10-09 09:41:37,676 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:37Z", "measurements": {"wind_speed": {"value": 1.99, "unit": "m/s"}, "wind_direction": {"value": 205.99, "unit": "deg"}}}
+2026-10-09 09:41:37,846 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.99, mag_id=101 valor=205.99
+2026-10-09 09:41:42,680 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:42Z", "measurements": {"wind_speed": {"value": 18.84, "unit": "m/s"}, "wind_direction": {"value": 79.89, "unit": "deg"}}}
+2026-10-09 09:41:42,767 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.84, mag_id=101 valor=79.89
+2026-10-09 09:41:47,712 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:47Z", "measurements": {"wind_speed": {"value": 9.25, "unit": "m/s"}, "wind_direction": {"value": 12.64, "unit": "deg"}}}
+2026-10-09 09:41:47,799 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=9.25, mag_id=101 valor=12.64
+2026-10-09 09:41:52,661 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:52Z", "measurements": {"wind_speed": {"value": 5.27, "unit": "m/s"}, "wind_direction": {"value": 37.74, "unit": "deg"}}}
+2026-10-09 09:41:52,757 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.27, mag_id=101 valor=37.74
+2026-10-09 09:41:57,672 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:41:57Z", "measurements": {"wind_speed": {"value": 7.58, "unit": "m/s"}, "wind_direction": {"value": 75.16, "unit": "deg"}}}
+2026-10-09 09:41:57,773 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.58, mag_id=101 valor=75.16
+2026-10-09 09:42:02,703 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:02Z", "measurements": {"wind_speed": {"value": 18.13, "unit": "m/s"}, "wind_direction": {"value": 126.44, "unit": "deg"}}}
+2026-10-09 09:42:02,814 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.13, mag_id=101 valor=126.44
+2026-10-09 09:42:07,681 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:07Z", "measurements": {"wind_speed": {"value": 11.88, "unit": "m/s"}, "wind_direction": {"value": 195.49, "unit": "deg"}}}
+2026-10-09 09:42:07,779 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.88, mag_id=101 valor=195.49
+2026-10-09 09:42:12,666 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:12Z", "measurements": {"wind_speed": {"value": 15.95, "unit": "m/s"}, "wind_direction": {"value": 205.39, "unit": "deg"}}}
+2026-10-09 09:42:12,809 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.95, mag_id=101 valor=205.39
+2026-10-09 09:42:17,673 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:17Z", "measurements": {"wind_speed": {"value": 2.63, "unit": "m/s"}, "wind_direction": {"value": 114.37, "unit": "deg"}}}
+2026-10-09 09:42:17,834 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.63, mag_id=101 valor=114.37
+2026-10-09 09:42:22,689 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:22Z", "measurements": {"wind_speed": {"value": 4.61, "unit": "m/s"}, "wind_direction": {"value": 25.96, "unit": "deg"}}}
+2026-10-09 09:42:22,808 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.61, mag_id=101 valor=25.96
+2026-10-09 09:42:27,682 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:27Z", "measurements": {"wind_speed": {"value": 4.81, "unit": "m/s"}, "wind_direction": {"value": 16.69, "unit": "deg"}}}
+2026-10-09 09:42:27,774 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.81, mag_id=101 valor=16.69
+2026-10-09 09:42:32,678 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:32Z", "measurements": {"wind_speed": {"value": 13.27, "unit": "m/s"}, "wind_direction": {"value": 200.34, "unit": "deg"}}}
+2026-10-09 09:42:32,832 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.27, mag_id=101 valor=200.34
+2026-10-09 09:42:37,680 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:37Z", "measurements": {"wind_speed": {"value": 11.27, "unit": "m/s"}, "wind_direction": {"value": 188.13, "unit": "deg"}}}
+2026-10-09 09:42:37,798 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.27, mag_id=101 valor=188.13
+2026-10-09 09:42:42,678 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:42Z", "measurements": {"wind_speed": {"value": 12.12, "unit": "m/s"}, "wind_direction": {"value": 130.05, "unit": "deg"}}}
+2026-10-09 09:42:42,804 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.12, mag_id=101 valor=130.05
+2026-10-09 09:42:47,666 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:47Z", "measurements": {"wind_speed": {"value": 8.4, "unit": "m/s"}, "wind_direction": {"value": 201.51, "unit": "deg"}}}
+2026-10-09 09:42:47,753 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=8.4, mag_id=101 valor=201.51
+2026-10-09 09:42:52,678 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:52Z", "measurements": {"wind_speed": {"value": 4.9, "unit": "m/s"}, "wind_direction": {"value": 91.67, "unit": "deg"}}}
+2026-10-09 09:42:52,760 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.9, mag_id=101 valor=91.67
+2026-10-09 09:42:57,701 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:42:57Z", "measurements": {"wind_speed": {"value": 17.32, "unit": "m/s"}, "wind_direction": {"value": 93.78, "unit": "deg"}}}
+2026-10-09 09:42:57,792 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.32, mag_id=101 valor=93.78
+2026-10-09 09:43:02,681 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:02Z", "measurements": {"wind_speed": {"value": 19.96, "unit": "m/s"}, "wind_direction": {"value": 227.62, "unit": "deg"}}}
+2026-10-09 09:43:02,776 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.96, mag_id=101 valor=227.62
+2026-10-09 09:43:07,683 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:07Z", "measurements": {"wind_speed": {"value": 3.75, "unit": "m/s"}, "wind_direction": {"value": 215.37, "unit": "deg"}}}
+2026-10-09 09:43:07,790 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.75, mag_id=101 valor=215.37
+2026-10-09 09:43:12,662 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:12Z", "measurements": {"wind_speed": {"value": 10.63, "unit": "m/s"}, "wind_direction": {"value": 183.8, "unit": "deg"}}}
+2026-10-09 09:43:12,748 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.63, mag_id=101 valor=183.8
+2026-10-09 09:43:17,685 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:17Z", "measurements": {"wind_speed": {"value": 0.73, "unit": "m/s"}, "wind_direction": {"value": 90.08, "unit": "deg"}}}
+2026-10-09 09:43:17,788 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.73, mag_id=101 valor=90.08
+2026-10-09 09:43:22,683 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:22Z", "measurements": {"wind_speed": {"value": 18.84, "unit": "m/s"}, "wind_direction": {"value": 309.68, "unit": "deg"}}}
+2026-10-09 09:43:22,780 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.84, mag_id=101 valor=309.68
+2026-10-09 09:43:27,707 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:27Z", "measurements": {"wind_speed": {"value": 3.23, "unit": "m/s"}, "wind_direction": {"value": "269.2", "unit": "deg"}}}
+2026-10-09 09:43:27,708 [WARNING] RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_direction.value.float: Input should be a valid number; measurements.wind_direction.value.int: Input should be a valid integer
+2026-10-09 09:43:32,686 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:32Z", "measurements": {"wind_speed": {"value": 6.28, "unit": "m/s"}, "wind_direction": {"value": 339.35, "unit": "deg"}}}
+2026-10-09 09:43:32,786 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.28, mag_id=101 valor=339.35
+2026-10-09 09:43:37,671 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:37Z", "measurements": {"wind_speed": {"value": 15.33, "unit": "m/s"}, "wind_direction": {"value": 239.91, "unit": "deg"}}}
+2026-10-09 09:43:37,759 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.33, mag_id=101 valor=239.91
+2026-10-09 09:43:42,674 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:42Z", "measurements": {"wind_speed": {"value": 10.59, "unit": "m/s"}, "wind_direction": {"value": 194.18, "unit": "deg"}}}
+2026-10-09 09:43:42,758 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.59, mag_id=101 valor=194.18
+2026-10-09 09:43:47,711 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:47Z", "measurements": {"wind_speed": {"value": 2.23, "unit": "m/s"}, "wind_direction": {"value": 119.49, "unit": "deg"}}}
+2026-10-09 09:43:47,798 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.23, mag_id=101 valor=119.49
+2026-10-09 09:43:52,678 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:52Z", "measurements": {"wind_speed": {"value": 15.99, "unit": "m/s"}, "wind_direction": {"value": 351.04, "unit": "deg"}}}
+2026-10-09 09:43:52,790 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.99, mag_id=101 valor=351.04
+2026-10-09 09:43:57,701 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:43:57Z", "measurements": {"wind_speed": {"value": 2.94, "unit": "m/s"}, "wind_direction": {"value": 17.42, "unit": "deg"}}}
+2026-10-09 09:43:57,788 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.94, mag_id=101 valor=17.42
+2026-10-09 09:44:02,679 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:02Z", "measurements": {"wind_speed": {"value": 4.27, "unit": "m/s"}, "wind_direction": {"value": 53.47, "unit": "deg"}}}
+2026-10-09 09:44:02,779 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.27, mag_id=101 valor=53.47
+2026-10-09 09:44:07,689 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:07Z", "measurements": {"wind_speed": {"value": 2.86, "unit": "m/s"}, "wind_direction": {"value": 277.13, "unit": "deg"}}}
+2026-10-09 09:44:07,786 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.86, mag_id=101 valor=277.13
+2026-10-09 09:44:12,680 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:12Z", "measurements": {"wind_speed": {"value": 5.8, "unit": "m/s"}, "wind_direction": {"value": 321.9, "unit": "deg"}}}
+2026-10-09 09:44:12,786 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.8, mag_id=101 valor=321.9
+2026-10-09 09:44:17,684 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:17Z", "measurements": {"wind_speed": {"value": 17.65, "unit": "m/s"}, "wind_direction": {"value": 46.09, "unit": "deg"}}}
+2026-10-09 09:44:17,794 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.65, mag_id=101 valor=46.09
+2026-10-09 09:44:22,685 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:22Z", "measurements": {"wind_speed": {"value": 18.0, "unit": "m/s"}, "wind_direction": {"value": 3.84, "unit": "deg"}}}
+2026-10-09 09:44:22,791 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.0, mag_id=101 valor=3.84
+2026-10-09 09:44:27,678 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:27Z", "measurements": {"wind_speed": {"value": 12.43, "unit": "m/s"}, "wind_direction": {"value": 319.81, "unit": "deg"}}}
+2026-10-09 09:44:27,765 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.43, mag_id=101 valor=319.81
+2026-10-09 09:44:32,685 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:32Z", "measurements": {"wind_speed": {"value": 16.68, "unit": "m/s"}, "wind_direction": {"value": 174.17, "unit": "deg"}}}
+2026-10-09 09:44:32,772 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.68, mag_id=101 valor=174.17
+2026-10-09 09:44:37,703 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:37Z", "measurements": {"wind_speed": {"value": 7.75, "unit": "m/s"}, "wind_direction": {"value": 313.77, "unit": "deg"}}}
+2026-10-09 09:44:37,821 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.75, mag_id=101 valor=313.77
+2026-10-09 09:44:42,684 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:42Z", "measurements": {"wind_speed": {"value": 10.94, "unit": "m/s"}, "wind_direction": {"value": 220.56, "unit": "deg"}}}
+2026-10-09 09:44:42,796 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.94, mag_id=101 valor=220.56
+2026-10-09 09:44:47,708 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:47Z", "measurements": {"wind_speed": {"value": 1.93, "unit": "m/s"}, "wind_direction": {"value": 18.41, "unit": "deg"}}}
+2026-10-09 09:44:47,803 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.93, mag_id=101 valor=18.41
+2026-10-09 09:44:52,707 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:52Z", "measurements": {"wind_speed": {"value": 10.65, "unit": "m/s"}, "wind_direction": {"value": 181.81, "unit": "deg"}}}
+2026-10-09 09:44:52,793 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.65, mag_id=101 valor=181.81
+2026-10-09 09:44:57,695 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:44:57Z", "measurements": {"wind_speed": {"value": 1.57, "unit": "m/s"}, "wind_direction": {"value": 264.73, "unit": "deg"}}}
+2026-10-09 09:44:57,809 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.57, mag_id=101 valor=264.73
+2026-10-09 09:45:02,690 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:02Z", "measurements": {"wind_speed": {"value": 14.47, "unit": "m/s"}, "wind_direction": {"value": 70.08, "unit": "deg"}}}
+2026-10-09 09:45:02,799 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.47, mag_id=101 valor=70.08
+2026-10-09 09:45:07,691 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:07Z", "measurements": {"wind_speed": {"value": 15.82, "unit": "m/s"}, "wind_direction": {"value": 27.72, "unit": "deg"}, "temperature": {"value": 25.58, "unit": "C"}}}
+2026-10-09 09:45:07,747 [WARNING] RECHAZADO: Magnitud 'temperature' no pertenece al sensor 'ENV-003'
+2026-10-09 09:45:12,684 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:12Z", "measurements": {"wind_speed": {"value": 3.07, "unit": "m/s"}, "wind_direction": {"value": 312.39, "unit": "deg"}}}
+2026-10-09 09:45:12,772 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.07, mag_id=101 valor=312.39
+2026-10-09 09:45:17,698 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:17Z", "measurements": {"wind_speed": {"value": 13.71, "unit": "m/s"}, "wind_direction": {"value": 286.85, "unit": "deg"}}}
+2026-10-09 09:45:17,796 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.71, mag_id=101 valor=286.85
+2026-10-09 09:45:22,692 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:22Z", "measurements": {"wind_speed": {"value": 5.11, "unit": "m/s"}, "wind_direction": {"value": 26.86, "unit": "deg"}}}
+2026-10-09 09:45:22,787 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.11, mag_id=101 valor=26.86
+2026-10-09 09:45:27,696 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:27Z", "measurements": {"wind_speed": {"value": 13.95, "unit": "m/s"}, "wind_direction": {"value": 35.97, "unit": "deg"}}}
+2026-10-09 09:45:27,794 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.95, mag_id=101 valor=35.97
+2026-10-09 09:45:32,676 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:32Z", "measurements": {"wind_speed": {"value": 15.77, "unit": "m/s"}, "wind_direction": {"value": 116.0, "unit": "deg"}}}
+2026-10-09 09:45:32,818 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.77, mag_id=101 valor=116.0
+2026-10-09 09:45:37,690 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:37Z", "measurements": {"wind_speed": {"value": 17.23, "unit": "m/s"}, "wind_direction": {"value": 211.39, "unit": "deg"}}}
+2026-10-09 09:45:37,783 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.23, mag_id=101 valor=211.39
+2026-10-09 09:45:42,704 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:42Z", "measurements": {"wind_speed": {"value": 16.54, "unit": "m/s"}, "wind_direction": {"value": 295.24, "unit": "deg"}}}
+2026-10-09 09:45:42,807 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.54, mag_id=101 valor=295.24
+2026-10-09 09:45:47,704 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:47Z", "measurements": {"wind_speed": {"value": 8.74, "unit": "m/s"}, "wind_direction": {"value": 160.63, "unit": "deg"}}}
+2026-10-09 09:45:47,806 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=8.74, mag_id=101 valor=160.63
+2026-10-09 09:45:52,695 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:52Z", "measurements": {"wind_speed": {"value": 4.6, "unit": "m/s"}, "wind_direction": {"value": 324.23, "unit": "deg"}}}
+2026-10-09 09:45:52,797 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.6, mag_id=101 valor=324.23
+2026-10-09 09:45:57,680 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:45:57Z", "measurements": {"wind_speed": {"value": 14.84, "unit": "m/s"}, "wind_direction": {"value": 67.58, "unit": "deg"}}}
+2026-10-09 09:45:57,779 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.84, mag_id=101 valor=67.58
+2026-10-09 09:46:02,697 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:02Z", "measurements": {"wind_speed": {"value": 7.71, "unit": "m/s"}, "wind_direction": {"value": 160.3, "unit": "INVALID_UNIT"}}}
+2026-10-09 09:46:02,760 [WARNING] RECHAZADO: Unidad incorrecta en 'wind_direction': recibida 'INVALID_UNIT', esperada 'deg'
+2026-10-09 09:46:07,690 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:07Z", "measurements": {"wind_speed": {"value": 11.63, "unit": "m/s"}, "wind_direction": {"value": 142.98, "unit": "deg"}}}
+2026-10-09 09:46:07,777 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.63, mag_id=101 valor=142.98
+2026-10-09 09:46:12,695 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:12Z", "measurements": {"wind_speed": {"value": 9.9, "unit": "m/s"}, "wind_direction": {"value": 108.75, "unit": "deg"}}}
+2026-10-09 09:46:12,793 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=9.9, mag_id=101 valor=108.75
+2026-10-09 09:46:17,697 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:17Z", "measurements": {"wind_speed": {"value": 9.17, "unit": "m/s"}, "wind_direction": {"value": 324.04, "unit": "deg"}}}
+2026-10-09 09:46:17,800 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=9.17, mag_id=101 valor=324.04
+2026-10-09 09:46:22,684 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:22Z", "measurements": {"wind_speed": {"value": 13.37, "unit": "m/s"}, "wind_direction": {"value": 206.35, "unit": "deg"}}}
+2026-10-09 09:46:22,774 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.37, mag_id=101 valor=206.35
+2026-10-09 09:46:27,687 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:27Z", "measurements": {"wind_speed": {"value": 13.57, "unit": "m/s"}, "wind_direction": {"value": 61.81, "unit": "deg"}}}
+2026-10-09 09:46:27,798 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.57, mag_id=101 valor=61.81
+2026-10-09 09:46:32,704 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:32Z", "measurements": {"wind_speed": {"value": 11.71, "unit": "m/s"}, "wind_direction": {"value": 231.43, "unit": "deg"}}}
+2026-10-09 09:46:32,805 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.71, mag_id=101 valor=231.43
+2026-10-09 09:46:37,716 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:37Z", "measurements": {"wind_speed": {"value": 2.65, "unit": "m/s"}, "wind_direction": {"value": 290.6, "unit": "deg"}}}
+2026-10-09 09:46:37,812 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.65, mag_id=101 valor=290.6
+2026-10-09 09:46:42,698 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:42Z", "measurements": {"wind_speed": {"value": 4.08, "unit": "m/s"}, "wind_direction": {"value": 113.2, "unit": "deg"}}}
+2026-10-09 09:46:42,812 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.08, mag_id=101 valor=113.2
+2026-10-09 09:46:47,702 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:47Z", "measurements": {"wind_speed": {"value": 16.39, "unit": "m/s"}, "wind_direction": {"value": 122.74, "unit": "deg"}}}
+2026-10-09 09:46:47,802 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.39, mag_id=101 valor=122.74
+2026-10-09 09:46:52,705 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:52Z", "measurements": {"wind_speed": {"value": 17.3, "unit": "m/s"}, "wind_direction": {"value": 190.96, "unit": "deg"}}}
+2026-10-09 09:46:52,801 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.3, mag_id=101 valor=190.96
+2026-10-09 09:46:57,703 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:46:57Z", "measurements": {"wind_speed": {"value": 2.54, "unit": "m/s"}, "wind_direction": {"value": 40.21, "unit": "deg"}}}
+2026-10-09 09:46:57,783 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.54, mag_id=101 valor=40.21
+2026-10-09 09:47:02,683 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:02Z", "measurements": {"wind_speed": {"value": 3.82, "unit": "m/s"}, "wind_direction": {"value": 188.52, "unit": "deg"}}}
+2026-10-09 09:47:02,774 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.82, mag_id=101 valor=188.52
+2026-10-09 09:47:07,679 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:07Z", "measurements": {"wind_speed": {"value": 7.37, "unit": "m/s"}, "wind_direction": {"value": 284.4, "unit": "deg"}}}
+2026-10-09 09:47:07,798 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.37, mag_id=101 valor=284.4
+2026-10-09 09:47:12,725 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:13Z", "measurements": {"wind_speed": {"value": 15.97, "unit": "m/s"}, "wind_direction": {"value": 60.75, "unit": "deg"}}}
+2026-10-09 09:47:12,839 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.97, mag_id=101 valor=60.75
+2026-10-09 09:47:17,694 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:17Z", "measurements": {"wind_speed": {"value": 0.61, "unit": "m/s"}, "wind_direction": {"value": 3.13, "unit": "deg"}}}
+2026-10-09 09:47:17,787 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.61, mag_id=101 valor=3.13
+2026-10-09 09:47:22,703 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:22Z", "measurements": {"wind_speed": {"value": 16.65}, "wind_direction": {"value": 217.22, "unit": "deg"}}}
+2026-10-09 09:47:22,704 [WARNING] RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_speed.unit: Field required
+2026-10-09 09:47:27,699 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:27Z", "measurements": {"wind_speed": {"value": 3.97, "unit": "m/s"}, "wind_direction": {"value": 261.92, "unit": "deg"}}}
+2026-10-09 09:47:27,785 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.97, mag_id=101 valor=261.92
+2026-10-09 09:47:32,692 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:32Z", "measurements": {"wind_speed": {"value": 8.0, "unit": "m/s"}, "wind_direction": {"value": 215.8, "unit": "deg"}}}
+2026-10-09 09:47:32,775 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=8.0, mag_id=101 valor=215.8
+2026-10-09 09:47:37,720 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:37Z", "measurements": {"wind_speed": {"value": 0.24, "unit": "m/s"}, "wind_direction": {"value": 85.36, "unit": "deg"}}}
+2026-10-09 09:47:37,816 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.24, mag_id=101 valor=85.36
+2026-10-09 09:47:42,722 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:43Z", "measurements": {"wind_speed": {"value": 3.67, "unit": "m/s"}, "wind_direction": {"value": 329.65, "unit": "deg"}}}
+2026-10-09 09:47:42,815 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.67, mag_id=101 valor=329.65
+2026-10-09 09:47:47,696 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:47Z", "measurements": {"wind_speed": {"value": 17.09, "unit": "m/s"}, "wind_direction": {"value": 175.6, "unit": "deg"}}}
+2026-10-09 09:47:47,780 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.09, mag_id=101 valor=175.6
+2026-10-09 09:47:52,704 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:52Z", "measurements": {"wind_speed": {"value": 0.63, "unit": "m/s"}, "wind_direction": {"value": 180.09, "unit": "deg"}}}
+2026-10-09 09:47:52,804 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.63, mag_id=101 valor=180.09
+2026-10-09 09:47:57,719 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:47:57Z", "measurements": {"wind_speed": {"value": 5.35, "unit": "m/s"}, "wind_direction": {"value": 208.4, "unit": "deg"}}}
+2026-10-09 09:47:57,787 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.35, mag_id=101 valor=208.4
+2026-10-09 09:48:02,707 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:02Z", "measurements": {"wind_speed": {"value": 5.44, "unit": "m/s"}, "wind_direction": {"value": 140.07, "unit": "deg"}}}
+2026-10-09 09:48:02,820 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.44, mag_id=101 valor=140.07
+2026-10-09 09:48:07,707 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:07Z", "measurements": {"wind_speed": {"value": 19.02, "unit": "m/s"}, "wind_direction": {"value": 235.21, "unit": "deg"}}}
+2026-10-09 09:48:07,809 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.02, mag_id=101 valor=235.21
+2026-10-09 09:48:12,687 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:12Z", "measurements": {"wind_speed": {"value": 6.35, "unit": "m/s"}, "wind_direction": {"value": 4.62, "unit": "deg"}}}
+2026-10-09 09:48:12,775 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.35, mag_id=101 valor=4.62
+2026-10-09 09:48:17,718 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:18Z", "measurements": {"wind_speed": {"value": 7.38, "unit": "m/s"}, "wind_direction": {"value": 355.88, "unit": "deg"}}}
+2026-10-09 09:48:17,816 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.38, mag_id=101 valor=355.88
+2026-10-09 09:48:22,707 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:22Z", "measurements": {"wind_speed": {"value": 10.4, "unit": "m/s"}, "wind_direction": {"value": 296.89, "unit": "deg"}}}
+2026-10-09 09:48:22,798 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.4, mag_id=101 valor=296.89
+2026-10-09 09:48:27,710 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:27Z", "measurements": {"wind_speed": {"value": 17.98, "unit": "m/s"}, "wind_direction": {"value": 45.34, "unit": "deg"}}}
+2026-10-09 09:48:27,797 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.98, mag_id=101 valor=45.34
+2026-10-09 09:48:32,711 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:32Z", "measurements": {"wind_speed": {"value": 10.94, "unit": "m/s"}, "wind_direction": {"value": 71.23, "unit": "deg"}}}
+2026-10-09 09:48:32,821 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.94, mag_id=101 valor=71.23
+2026-10-09 09:48:37,707 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:37Z", "measurements": {"wind_speed": {"value": 11.41, "unit": "m/s"}, "wind_direction": {"value": 64.37, "unit": "deg"}}}
+2026-10-09 09:48:37,795 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.41, mag_id=101 valor=64.37
+2026-10-09 09:48:42,699 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:42Z", "measurements": {"wind_speed": {"value": 14.02, "unit": "m/s"}, "wind_direction": {"value": 206.72, "unit": "deg"}}}
+2026-10-09 09:48:42,801 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.02, mag_id=101 valor=206.72
+2026-10-09 09:48:47,746 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:47Z", "measurements": {"wind_speed": {"value": 7.1, "unit": "m/s"}, "wind_direction": {"value": 300.38, "unit": "deg"}}}
+2026-10-09 09:48:47,834 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.1, mag_id=101 valor=300.38
+2026-10-09 09:48:52,727 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:53Z", "measurements": {"wind_speed": {"value": 2.42, "unit": "m/s"}, "wind_direction": {"value": 205.43, "unit": "deg"}}}
+2026-10-09 09:48:52,825 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.42, mag_id=101 valor=205.43
+2026-10-09 09:48:57,716 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:48:57Z", "measurements": {"wind_speed": {"value": 5.19, "unit": "m/s"}, "wind_direction": {"value": 306.52, "unit": "deg"}}}
+2026-10-09 09:48:57,824 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.19, mag_id=101 valor=306.52
+2026-10-09 09:49:02,705 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:02Z", "measurements": {"wind_speed": {"value": 7.78, "unit": "m/s"}, "wind_direction": {"value": 185.28, "unit": "deg"}}}
+2026-10-09 09:49:02,807 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.78, mag_id=101 valor=185.28
+2026-10-09 09:49:07,717 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:07Z", "measurements": {"wind_speed": {"value": 19.05, "unit": "m/s"}, "wind_direction": {"value": 227.56, "unit": "deg"}}}
+2026-10-09 09:49:07,805 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.05, mag_id=101 valor=227.56
+2026-10-09 09:49:12,709 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:12Z", "measurements": {"wind_speed": {"value": 4.19, "unit": "m/s"}, "wind_direction": {"value": 24.21, "unit": "deg"}}}
+2026-10-09 09:49:12,813 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.19, mag_id=101 valor=24.21
+2026-10-09 09:49:17,733 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:18Z", "measurements": {"wind_speed": {"value": 1.63}, "wind_direction": {"value": 177.0, "unit": "deg"}}}
+2026-10-09 09:49:17,734 [WARNING] RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_speed.unit: Field required
+2026-10-09 09:49:22,718 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:22Z", "measurements": {"wind_speed": {"value": 10.66, "unit": "INVALID_UNIT"}, "wind_direction": {"value": 29.63, "unit": "deg"}}}
+2026-10-09 09:49:22,773 [WARNING] RECHAZADO: Unidad incorrecta en 'wind_speed': recibida 'INVALID_UNIT', esperada 'm/s'
+2026-10-09 09:49:27,719 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:28Z", "measurements": {"wind_speed": {"value": 0.1, "unit": "m/s"}, "wind_direction": {"value": 115.41, "unit": "deg"}}}
+2026-10-09 09:49:27,809 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.1, mag_id=101 valor=115.41
+2026-10-09 09:49:32,716 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:32Z", "measurements": {"wind_speed": {"value": 3.41, "unit": "m/s"}, "wind_direction": {"value": 40.94, "unit": "deg"}}}
+2026-10-09 09:49:32,808 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.41, mag_id=101 valor=40.94
+2026-10-09 09:49:37,720 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:38Z", "measurements": {"wind_speed": {"value": 13.5, "unit": "m/s"}, "wind_direction": {"value": 24.24, "unit": "deg"}}}
+2026-10-09 09:49:37,807 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.5, mag_id=101 valor=24.24
+2026-10-09 09:49:42,724 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:43Z", "measurements": {"wind_speed": {"value": 6.12, "unit": "m/s"}, "wind_direction": {"value": 297.04, "unit": "deg"}}}
+2026-10-09 09:49:42,814 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.12, mag_id=101 valor=297.04
+2026-10-09 09:49:47,752 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:47Z", "measurements": {"wind_speed": {"value": 12.77, "unit": "m/s"}, "wind_direction": {"value": 279.9, "unit": "deg"}}}
+2026-10-09 09:49:47,855 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.77, mag_id=101 valor=279.9
+2026-10-09 09:49:52,712 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:52Z", "measurements": {"wind_speed": {"value": 6.03, "unit": "m/s"}, "wind_direction": {"value": 204.1, "unit": "deg"}}}
+2026-10-09 09:49:52,812 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.03, mag_id=101 valor=204.1
+2026-10-09 09:49:57,711 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:49:57Z", "measurements": {"wind_speed": {"value": 8.93, "unit": "m/s"}, "wind_direction": {"value": 334.9, "unit": "deg"}}}
+2026-10-09 09:49:57,803 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=8.93, mag_id=101 valor=334.9
+2026-10-09 09:50:02,716 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:02Z", "measurements": {"wind_speed": {"value": 18.89, "unit": "m/s"}, "wind_direction": {"value": 358.82, "unit": "deg"}}}
+2026-10-09 09:50:02,819 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.89, mag_id=101 valor=358.82
+2026-10-09 09:50:07,722 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:08Z", "measurements": {"wind_speed": {"value": 18.87, "unit": "m/s"}, "wind_direction": {"value": 344.77, "unit": "deg"}}}
+2026-10-09 09:50:07,818 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.87, mag_id=101 valor=344.77
+2026-10-09 09:50:12,712 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:12Z", "measurements": {"wind_speed": {"value": 3.92, "unit": "m/s"}, "wind_direction": {"value": 146.85, "unit": "deg"}}}
+2026-10-09 09:50:12,808 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.92, mag_id=101 valor=146.85
+2026-10-09 09:50:17,719 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:17Z", "measurements": {"wind_speed": {"value": 15.07, "unit": "m/s"}, "wind_direction": {"value": 277.67, "unit": "deg"}}}
+2026-10-09 09:50:17,807 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.07, mag_id=101 valor=277.67
+2026-10-09 09:50:22,717 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:22Z", "measurements": {"wind_speed": {"value": 6.42, "unit": "m/s"}, "wind_direction": {"value": 138.42, "unit": "deg"}}}
+2026-10-09 09:50:22,806 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.42, mag_id=101 valor=138.42
+2026-10-09 09:50:27,735 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:28Z", "measurements": {"wind_speed": {"value": 15.91, "unit": "m/s"}, "wind_direction": {"value": 24.95, "unit": "deg"}}}
+2026-10-09 09:50:27,864 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.91, mag_id=101 valor=24.95
+2026-10-09 09:50:32,713 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:32Z", "measurements": {"wind_speed": {"value": 16.69, "unit": "m/s"}, "wind_direction": {"value": 45.32, "unit": "deg"}}}
+2026-10-09 09:50:32,804 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.69, mag_id=101 valor=45.32
+2026-10-09 09:50:37,731 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:38Z", "measurements": {"wind_speed": {"value": 16.5, "unit": "m/s"}, "wind_direction": {"value": 296.74, "unit": "deg"}}}
+2026-10-09 09:50:37,836 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.5, mag_id=101 valor=296.74
+2026-10-09 09:50:42,703 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:42Z", "measurements": {"wind_speed": {"value": 13.04, "unit": "m/s"}, "wind_direction": {"value": 292.28, "unit": "deg"}}}
+2026-10-09 09:50:42,793 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.04, mag_id=101 valor=292.28
+2026-10-09 09:50:47,762 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:48Z", "measurements": {"wind_speed": {"value": 11.86, "unit": "m/s"}, "wind_direction": {"value": 232.6, "unit": "deg"}}}
+2026-10-09 09:50:47,850 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.86, mag_id=101 valor=232.6
+2026-10-09 09:50:52,704 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:52Z", "measurements": {"wind_speed": {"value": 13.94, "unit": "m/s"}, "wind_direction": {"value": 184.35, "unit": "deg"}}}
+2026-10-09 09:50:52,808 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.94, mag_id=101 valor=184.35
+2026-10-09 09:50:57,734 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:50:58Z", "measurements": {"wind_speed": {"value": 5.18, "unit": "m/s"}, "wind_direction": {"value": 119.05, "unit": "deg"}}}
+2026-10-09 09:50:57,915 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.18, mag_id=101 valor=119.05
+2026-10-09 09:51:02,739 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:03Z", "measurements": {"wind_speed": {"value": 5.0, "unit": "m/s"}, "wind_direction": {"value": 310.96, "unit": "deg"}}}
+2026-10-09 09:51:02,832 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.0, mag_id=101 valor=310.96
+2026-10-09 09:51:07,718 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:07Z", "measurements": {"wind_speed": {"value": 17.3, "unit": "m/s"}, "wind_direction": {"value": 295.53, "unit": "deg"}}}
+2026-10-09 09:51:07,813 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.3, mag_id=101 valor=295.53
+2026-10-09 09:51:12,719 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:13Z", "measurements": {"wind_speed": {"value": 17.49, "unit": "m/s"}, "wind_direction": {"value": 141.5, "unit": "deg"}}}
+2026-10-09 09:51:12,820 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.49, mag_id=101 valor=141.5
+2026-10-09 09:51:17,715 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:17Z", "measurements": {"wind_speed": {"value": 16.4, "unit": "m/s"}, "wind_direction": {"value": 58.6, "unit": "deg"}}}
+2026-10-09 09:51:17,794 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.4, mag_id=101 valor=58.6
+2026-10-09 09:51:22,719 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:22Z", "measurements": {"wind_speed": {"value": 17.07, "unit": "m/s"}, "wind_direction": {"value": 112.22, "unit": "deg"}}}
+2026-10-09 09:51:22,809 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.07, mag_id=101 valor=112.22
+2026-10-09 09:51:27,722 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:28Z", "measurements": {"wind_speed": {"value": 17.14, "unit": "m/s"}, "wind_direction": {"value": 67.8, "unit": "deg"}}}
+2026-10-09 09:51:27,817 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.14, mag_id=101 valor=67.8
+2026-10-09 09:51:32,721 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:33Z", "measurements": {"wind_speed": {"value": 16.51, "unit": "m/s"}, "wind_direction": {"value": 177.58, "unit": "deg"}}}
+2026-10-09 09:51:32,825 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.51, mag_id=101 valor=177.58
+2026-10-09 09:51:37,721 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:38Z", "measurements": {"wind_speed": {"value": 3.22, "unit": "m/s"}, "wind_direction": {"value": 62.81, "unit": "deg"}}}
+2026-10-09 09:51:37,806 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.22, mag_id=101 valor=62.81
+2026-10-09 09:51:42,723 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:43Z", "measurements": {"wind_speed": {"value": 19.5, "unit": "m/s"}, "wind_direction": {"value": 74.86, "unit": "deg"}}}
+2026-10-09 09:51:42,822 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.5, mag_id=101 valor=74.86
+2026-10-09 09:51:47,770 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:48Z", "measurements": {"wind_speed": {"value": 7.8, "unit": "m/s"}, "wind_direction": {"value": 212.5, "unit": "deg"}}}
+2026-10-09 09:51:47,862 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.8, mag_id=101 valor=212.5
+2026-10-09 09:51:52,714 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:52Z", "measurements": {"wind_speed": {"value": 3.09, "unit": "m/s"}, "wind_direction": {"value": 148.22, "unit": "deg"}}}
+2026-10-09 09:51:52,820 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.09, mag_id=101 valor=148.22
+2026-10-09 09:51:57,766 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:51:58Z", "measurements": {"wind_speed": {"value": 19.11, "unit": "m/s"}, "wind_direction": {"value": 331.89, "unit": "deg"}}}
+2026-10-09 09:51:57,873 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.11, mag_id=101 valor=331.89
+2026-10-09 09:52:02,732 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:03Z", "measurements": {"wind_speed": {"value": 17.03, "unit": "m/s"}, "wind_direction": {"value": 81.87, "unit": "deg"}}}
+2026-10-09 09:52:02,835 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.03, mag_id=101 valor=81.87
+2026-10-09 09:52:07,729 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:08Z", "measurements": {"wind_speed": {"value": 5.69, "unit": "m/s"}, "wind_direction": {"value": 163.51, "unit": "deg"}}}
+2026-10-09 09:52:07,825 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.69, mag_id=101 valor=163.51
+2026-10-09 09:52:12,724 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:13Z", "measurements": {"wind_speed": {"value": 15.21, "unit": "m/s"}, "wind_direction": {"value": 7.61, "unit": "deg"}}}
+2026-10-09 09:52:12,816 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.21, mag_id=101 valor=7.61
+2026-10-09 09:52:17,714 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:17Z", "measurements": {"wind_speed": {"value": 1.05, "unit": "m/s"}, "wind_direction": {"value": 292.32, "unit": "deg"}}}
+2026-10-09 09:52:17,806 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.05, mag_id=101 valor=292.32
+2026-10-09 09:52:22,729 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:23Z", "measurements": {"wind_speed": {"value": 9.54, "unit": "m/s"}, "wind_direction": {"value": 227.26, "unit": "deg"}}}
+2026-10-09 09:52:22,822 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=9.54, mag_id=101 valor=227.26
+2026-10-09 09:52:27,739 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:28Z", "measurements": {"wind_speed": {"value": 8.01, "unit": "m/s"}, "wind_direction": {"value": 72.56, "unit": "deg"}}}
+2026-10-09 09:52:27,855 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=8.01, mag_id=101 valor=72.56
+2026-10-09 09:52:32,727 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:33Z", "measurements": {"wind_speed": {"value": 4.34, "unit": "m/s"}, "wind_direction": {"value": 341.49, "unit": "deg"}}}
+2026-10-09 09:52:32,829 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.34, mag_id=101 valor=341.49
+2026-10-09 09:52:37,748 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:38Z", "measurements": {"wind_speed": {"value": 3.64, "unit": "m/s"}, "wind_direction": {"value": 299.78, "unit": "deg"}}}
+2026-10-09 09:52:37,852 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.64, mag_id=101 valor=299.78
+2026-10-09 09:52:42,712 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:42Z", "measurements": {"wind_speed": {"value": 10.8, "unit": "m/s"}, "wind_direction": {"value": 127.48, "unit": "deg"}}}
+2026-10-09 09:52:42,801 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.8, mag_id=101 valor=127.48
+2026-10-09 09:52:47,728 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:48Z", "measurements": {"wind_speed": {"value": 11.33, "unit": "m/s"}, "wind_direction": {"value": 344.78, "unit": "deg"}}}
+2026-10-09 09:52:47,826 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.33, mag_id=101 valor=344.78
+2026-10-09 09:52:52,724 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:53Z", "measurements": {"wind_speed": {"value": 6.82, "unit": "m/s"}, "wind_direction": {"value": 25.79, "unit": "deg"}}}
+2026-10-09 09:52:52,833 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.82, mag_id=101 valor=25.79
+2026-10-09 09:52:57,739 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:52:58Z", "measurements": {"wind_speed": {"value": 0.09, "unit": "m/s"}, "wind_direction": {"value": 276.11, "unit": "deg"}}}
+2026-10-09 09:52:57,839 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.09, mag_id=101 valor=276.11
+2026-10-09 09:53:02,754 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:03Z", "measurements": {"wind_speed": {"value": 12.5, "unit": "m/s"}, "wind_direction": {"value": 96.31, "unit": "deg"}}}
+2026-10-09 09:53:02,855 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.5, mag_id=101 valor=96.31
+2026-10-09 09:53:07,729 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:08Z", "measurements": {"wind_speed": {"value": 5.89, "unit": "m/s"}, "wind_direction": {"value": 36.34, "unit": "deg"}}}
+2026-10-09 09:53:07,821 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.89, mag_id=101 valor=36.34
+2026-10-09 09:53:12,729 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:13Z", "measurements": {"wind_speed": {"value": 13.93, "unit": "m/s"}, "wind_direction": {"value": 164.42, "unit": "deg"}}}
+2026-10-09 09:53:12,811 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.93, mag_id=101 valor=164.42
+2026-10-09 09:53:17,729 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:18Z", "measurements": {"wind_speed": {"value": 3.46, "unit": "m/s"}, "wind_direction": {"value": 329.1, "unit": "deg"}}}
+2026-10-09 09:53:17,860 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.46, mag_id=101 valor=329.1
+2026-10-09 09:53:22,732 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:23Z", "measurements": {"wind_speed": {"value": 7.97, "unit": "m/s"}, "wind_direction": {"value": 145.0, "unit": "deg"}}}
+2026-10-09 09:53:22,875 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.97, mag_id=101 valor=145.0
+2026-10-09 09:53:27,727 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:28Z", "measurements": {"wind_speed": {"value": 4.65, "unit": "m/s"}, "wind_direction": {"value": 97.98, "unit": "deg"}}}
+2026-10-09 09:53:27,841 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.65, mag_id=101 valor=97.98
+2026-10-09 09:53:32,739 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:33Z", "measurements": {"wind_speed": {"value": 4.53, "unit": "m/s"}, "wind_direction": {"value": 136.6, "unit": "deg"}}}
+2026-10-09 09:53:32,831 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.53, mag_id=101 valor=136.6
+2026-10-09 09:53:37,716 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:37Z", "measurements": {"wind_speed": {"value": 2.71, "unit": "m/s"}, "wind_direction": {"value": 21.05, "unit": "deg"}}}
+2026-10-09 09:53:37,805 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.71, mag_id=101 valor=21.05
+2026-10-09 09:53:42,744 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:43Z", "measurements": {"wind_speed": {"value": 12.26, "unit": "m/s"}, "wind_direction": {"value": 223.06, "unit": "deg"}}}
+2026-10-09 09:53:42,850 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.26, mag_id=101 valor=223.06
+2026-10-09 09:53:47,763 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:48Z", "measurements": {"wind_speed": {"value": 12.21, "unit": "m/s"}, "wind_direction": {"value": 88.8, "unit": "deg"}}}
+2026-10-09 09:53:47,854 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.21, mag_id=101 valor=88.8
+2026-10-09 09:53:52,735 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:53Z", "measurements": {"wind_speed": {"value": 11.71, "unit": "m/s"}, "wind_direction": {"value": 320.97, "unit": "deg"}}}
+2026-10-09 09:53:52,861 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.71, mag_id=101 valor=320.97
+2026-10-09 09:53:57,736 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:53:58Z", "measurements": {"wind_speed": {"value": 14.57, "unit": "m/s"}, "wind_direction": {"value": 50.27, "unit": "deg"}}}
+2026-10-09 09:53:57,843 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.57, mag_id=101 valor=50.27
+2026-10-09 09:54:02,729 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:03Z", "measurements": {"wind_speed": {"value": 3.21, "unit": "m/s"}, "wind_direction": {"value": 179.13, "unit": "deg"}}}
+2026-10-09 09:54:02,842 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.21, mag_id=101 valor=179.13
+2026-10-09 09:54:07,729 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:08Z", "measurements": {"wind_speed": {"value": 16.32, "unit": "m/s"}, "wind_direction": {"value": 41.88, "unit": "deg"}}}
+2026-10-09 09:54:07,824 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.32, mag_id=101 valor=41.88
+2026-10-09 09:54:12,754 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:13Z", "measurements": {"wind_speed": {"value": 9.4, "unit": "m/s"}, "wind_direction": {"value": 263.18, "unit": "deg"}}}
+2026-10-09 09:54:12,865 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=9.4, mag_id=101 valor=263.18
+2026-10-09 09:54:17,734 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:18Z", "measurements": {"wind_speed": {"value": 16.27, "unit": "m/s"}, "wind_direction": {"value": 107.55, "unit": "deg"}}}
+2026-10-09 09:54:17,857 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.27, mag_id=101 valor=107.55
+2026-10-09 09:54:22,747 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:23Z", "measurements": {"wind_speed": {"value": 16.3, "unit": "m/s"}, "wind_direction": {"value": 229.9, "unit": "deg"}}}
+2026-10-09 09:54:22,846 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.3, mag_id=101 valor=229.9
+2026-10-09 09:54:27,730 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:28Z", "measurements": {"wind_speed": {"value": 5.33, "unit": "m/s"}, "wind_direction": {"value": 172.92, "unit": "deg"}}}
+2026-10-09 09:54:27,845 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.33, mag_id=101 valor=172.92
+2026-10-09 09:54:32,735 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:33Z", "measurements": {"wind_speed": {"value": 7.69, "unit": "m/s"}, "wind_direction": {"value": 188.35, "unit": "deg"}}}
+2026-10-09 09:54:32,819 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.69, mag_id=101 valor=188.35
+2026-10-09 09:54:37,740 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:38Z", "measurements": {"wind_speed": {"value": 6.73, "unit": "m/s"}, "wind_direction": {"value": 354.68, "unit": "deg"}}}
+2026-10-09 09:54:37,835 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.73, mag_id=101 valor=354.68
+2026-10-09 09:54:42,720 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:43Z", "measurements": {"wind_speed": {"value": 11.05, "unit": "m/s"}, "wind_direction": {"value": 4.19, "unit": "deg"}}}
+2026-10-09 09:54:42,817 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=11.05, mag_id=101 valor=4.19
+2026-10-09 09:54:47,737 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:48Z", "measurements": {"wind_speed": {"value": 4.34, "unit": "m/s"}, "wind_direction": {"value": 254.14, "unit": "deg"}}}
+2026-10-09 09:54:47,833 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.34, mag_id=101 valor=254.14
+2026-10-09 09:54:52,740 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:53Z", "measurements": {"wind_speed": {"value": 5.51, "unit": "m/s"}, "wind_direction": {"value": 346.49, "unit": "deg"}}}
+2026-10-09 09:54:52,840 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.51, mag_id=101 valor=346.49
+2026-10-09 09:54:57,737 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:54:58Z", "measurements": {"wind_speed": {"value": 15.29, "unit": "m/s"}, "wind_direction": {"value": 2.5, "unit": "deg"}}}
+2026-10-09 09:54:57,830 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.29, mag_id=101 valor=2.5
+2026-10-09 09:55:02,760 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:03Z", "measurements": {"wind_speed": {"value": 19.05, "unit": "m/s"}, "wind_direction": {"value": 336.04, "unit": "deg"}}}
+2026-10-09 09:55:02,863 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.05, mag_id=101 valor=336.04
+2026-10-09 09:55:07,738 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:08Z", "measurements": {"wind_speed": {"value": 0.53, "unit": "m/s"}, "wind_direction": {"value": 2.54, "unit": "deg"}}}
+2026-10-09 09:55:07,870 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.53, mag_id=101 valor=2.54
+2026-10-09 09:55:12,728 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:13Z", "measurements": {"wind_speed": {"value": 0.81, "unit": "m/s"}, "wind_direction": {"value": 104.73, "unit": "deg"}}}
+2026-10-09 09:55:12,894 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.81, mag_id=101 valor=104.73
+2026-10-09 09:55:17,749 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:18Z", "measurements": {"wind_speed": {"value": 6.2, "unit": "m/s"}, "wind_direction": {"value": 239.82, "unit": "deg"}}}
+2026-10-09 09:55:17,868 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.2, mag_id=101 valor=239.82
+2026-10-09 09:55:22,733 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:23Z", "measurements": {"wind_speed": {"value": 9.2, "unit": "m/s"}, "wind_direction": {"value": 114.78, "unit": "deg"}}}
+2026-10-09 09:55:22,825 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=9.2, mag_id=101 valor=114.78
+2026-10-09 09:55:27,737 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:28Z", "measurements": {"wind_speed": {"value": 6.77, "unit": "m/s"}, "wind_direction": {"value": 179.04, "unit": "deg"}}}
+2026-10-09 09:55:27,849 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.77, mag_id=101 valor=179.04
+2026-10-09 09:55:32,773 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:33Z", "measurements": {"wind_speed": {"value": 16.23, "unit": "m/s"}, "wind_direction": {"value": 260.9, "unit": "deg"}}}
+2026-10-09 09:55:32,881 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.23, mag_id=101 valor=260.9
+2026-10-09 09:55:37,740 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:38Z", "measurements": {"wind_speed": {"value": 10.13, "unit": "m/s"}, "wind_direction": {"value": 263.76, "unit": "deg"}}}
+2026-10-09 09:55:37,830 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=10.13, mag_id=101 valor=263.76
+2026-10-09 09:55:42,740 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:43Z", "measurements": {"wind_speed": {"value": 18.74, "unit": "m/s"}, "wind_direction": {"value": 249.62, "unit": "deg"}}}
+2026-10-09 09:55:42,839 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=18.74, mag_id=101 valor=249.62
+2026-10-09 09:55:47,752 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:48Z", "measurements": {"wind_speed": {"value": 12.59, "unit": "m/s"}, "wind_direction": {"value": 322.94, "unit": "deg"}}}
+2026-10-09 09:55:47,845 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=12.59, mag_id=101 valor=322.94
+2026-10-09 09:55:52,737 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:53Z", "measurements": {"wind_speed": {"value": 2.04, "unit": "m/s"}, "wind_direction": {"value": 342.2, "unit": "deg"}}}
+2026-10-09 09:55:52,927 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=2.04, mag_id=101 valor=342.2
+2026-10-09 09:55:57,740 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:55:58Z", "measurements": {"wind_speed": {"value": 13.36, "unit": "m/s"}, "wind_direction": {"value": 72.7, "unit": "deg"}}}
+2026-10-09 09:55:57,834 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.36, mag_id=101 valor=72.7
+2026-10-09 09:56:02,749 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:03Z", "measurements": {"wind_speed": {"value": 8.98, "unit": "m/s"}, "wind_direction": {"value": 335.59, "unit": "deg"}}}
+2026-10-09 09:56:02,858 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=8.98, mag_id=101 valor=335.59
+2026-10-09 09:56:07,737 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:08Z", "measurements": {"wind_speed": {"value": 19.89, "unit": "m/s"}, "wind_direction": {"value": 165.21, "unit": "deg"}}}
+2026-10-09 09:56:07,853 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.89, mag_id=101 valor=165.21
+2026-10-09 09:56:12,741 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:13Z", "measurements": {"wind_speed": {"value": 3.69, "unit": "m/s"}, "wind_direction": {"value": 225.86, "unit": "deg"}}}
+2026-10-09 09:56:12,848 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.69, mag_id=101 valor=225.86
+2026-10-09 09:56:17,743 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:18Z", "measurements": {"wind_speed": {"value": 17.66, "unit": "m/s"}, "wind_direction": {"value": 55.34, "unit": "deg"}}}
+2026-10-09 09:56:17,847 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=17.66, mag_id=101 valor=55.34
+2026-10-09 09:56:22,745 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:23Z", "measurements": {"wind_speed": {"value": 4.08, "unit": "m/s"}, "wind_direction": {"value": 228.87, "unit": "deg"}}}
+2026-10-09 09:56:22,837 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.08, mag_id=101 valor=228.87
+2026-10-09 09:56:27,740 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:28Z", "measurements": {"wind_speed": {"value": 0.04, "unit": "m/s"}, "wind_direction": {"value": 222.63, "unit": "deg"}}}
+2026-10-09 09:56:27,852 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.04, mag_id=101 valor=222.63
+2026-10-09 09:56:32,742 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:33Z", "measurements": {"wind_speed": {"value": 5.5, "unit": "m/s"}, "wind_direction": {"value": 340.13, "unit": "deg"}}}
+2026-10-09 09:56:32,835 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=5.5, mag_id=101 valor=340.13
+2026-10-09 09:56:37,757 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:38Z", "measurements": {"wind_speed": {"value": 4.44, "unit": "m/s"}, "wind_direction": {"value": 15.87, "unit": "deg"}}}
+2026-10-09 09:56:37,851 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=4.44, mag_id=101 valor=15.87
+2026-10-09 09:56:42,725 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:43Z", "measurements": {"wind_speed": {"value": 15.08}, "wind_direction": {"value": 288.8, "unit": "deg"}}}
+2026-10-09 09:56:42,725 [WARNING] RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_speed.unit: Field required
+2026-10-09 09:56:47,785 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:48Z", "measurements": {"wind_speed": {"value": 19.55, "unit": "m/s"}, "wind_direction": {"value": 65.49, "unit": "deg"}}}
+2026-10-09 09:56:47,891 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.55, mag_id=101 valor=65.49
+2026-10-09 09:56:52,742 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:53Z", "measurements": {"wind_speed": {"value": 0.29, "unit": "m/s"}, "wind_direction": {"value": 6.35, "unit": "deg"}}}
+2026-10-09 09:56:52,831 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.29, mag_id=101 valor=6.35
+2026-10-09 09:56:57,755 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:56:58Z", "measurements": {"wind_speed": {"value": 3.68, "unit": "m/s"}, "wind_direction": {"value": 72.51, "unit": "deg"}}}
+2026-10-09 09:56:57,871 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=3.68, mag_id=101 valor=72.51
+2026-10-09 09:57:02,759 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:03Z", "measurements": {"wind_speed": {"value": 7.62, "unit": "m/s"}, "wind_direction": {"unit": "deg"}}}
+2026-10-09 09:57:02,759 [WARNING] RECHAZADO: Estructura/tipos/timestamp inválidos: measurements.wind_direction.value: Field required
+2026-10-09 09:57:07,745 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:08Z", "measurements": {"wind_speed": {"value": 14.94, "unit": "m/s"}, "wind_direction": {"value": 224.13, "unit": "deg"}}}
+2026-10-09 09:57:07,845 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=14.94, mag_id=101 valor=224.13
+2026-10-09 09:57:12,734 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:13Z", "measurements": {"wind_speed": {"value": 13.92, "unit": "m/s"}, "wind_direction": {"value": 43.15, "unit": "deg"}}}
+2026-10-09 09:57:12,835 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=13.92, mag_id=101 valor=43.15
+2026-10-09 09:57:17,749 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:18Z", "measurements": {"wind_speed": {"value": 16.78, "unit": "m/s"}, "wind_direction": {"value": 281.37, "unit": "deg"}}}
+2026-10-09 09:57:17,834 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=16.78, mag_id=101 valor=281.37
+2026-10-09 09:57:22,748 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:23Z", "measurements": {"wind_speed": {"value": 19.6, "unit": "m/s"}, "wind_direction": {"value": 176.69, "unit": "deg"}}}
+2026-10-09 09:57:22,841 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.6, mag_id=101 valor=176.69
+2026-10-09 09:57:27,751 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:28Z", "measurements": {"wind_speed": {"value": 15.89, "unit": "m/s"}, "wind_direction": {"value": 132.84, "unit": "deg"}}}
+2026-10-09 09:57:27,840 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=15.89, mag_id=101 valor=132.84
+2026-10-09 09:57:32,761 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:33Z", "measurements": {"wind_speed": {"value": 19.72, "unit": "m/s"}, "wind_direction": {"value": 296.33, "unit": "deg"}}}
+2026-10-09 09:57:32,881 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=19.72, mag_id=101 valor=296.33
+2026-10-09 09:57:37,784 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:38Z", "measurements": {"wind_speed": {"value": 7.74, "unit": "m/s"}, "wind_direction": {"value": 94.32, "unit": "deg"}}}
+2026-10-09 09:57:37,896 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=7.74, mag_id=101 valor=94.32
+2026-10-09 09:57:42,760 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:43Z", "measurements": {"wind_speed": {"value": 6.5, "unit": "m/s"}, "wind_direction": {"value": 116.74, "unit": "deg"}}}
+2026-10-09 09:57:42,845 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=6.5, mag_id=101 valor=116.74
+2026-10-09 09:57:47,791 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:57:48Z", "measurements": {"wind_speed": {"value": 0.18, "unit": "m/s"}, "wind_direction": {"value": 152.16, "unit": "deg"}}}
+2026-10-09 09:57:47,894 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=0.18, mag_id=101 valor=152.16
+2026-10-09 09:57:51,917 [INFO] Consumidor MQTT detenido
+2026-10-09 10:05:47,670 [INFO] Conectado a emqx.coriotlab.co:1883 y suscrito a iot/sensors/ENV-003/data
+2026-10-09 10:05:47,775 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T15:05:48Z", "measurements": {"wind_speed": {"value": 9.18, "unit": "m/s"}, "wind_direction": {"value": 125.22, "unit": "deg"}}}
+2026-10-09 10:05:48,066 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=9.18, mag_id=101 valor=125.22
+2026-10-09 10:05:52,813 [INFO] RECIBIDO iot/sensors/ENV-003/data: {"sensor_id": "ENV-003", "timestamp": "2026-10-09T15:05:53Z", "measurements": {"wind_speed": {"value": 1.95, "unit": "m/s"}, "wind_direction": {"value": 277.58, "unit": "deg"}}}
+2026-10-09 10:05:52,898 [INFO] ALMACENADO 2 medición(es): mag_id=102 valor=1.95, mag_id=101 valor=277.58
+2026-10-09 10:05:54,924 [INFO] Consumidor MQTT detenido
