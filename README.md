@@ -114,13 +114,23 @@
 | 17 | Claves foráneas → relación implementada correctamente | ✅ | `app/models/medicion.py` (`ForeignKey`) |
 | 18 | Separación de responsabilidades → organización | ✅ | Estructura modular en `app/` |
 
-## 8. Control de Versiones
+## 8. Control de versiones
 
-- **Repositorio:** Disponible en la rama `taller-2` de GitHub.
-- **Historial de Commits:** Desarrollo modular mediante commits convencionales (`feat`, `fix`, `docs`, `refactor`).
-- **Trabajo Colaborativo:**
-  - Desarrollo de modelos ORM, esquemas Pydantic y configuración de base de datos.
-  - Implementación del cliente MQTT, lógica de validación, endpoints FastAPI y pruebas.
+El proyecto se desarrolló de manera individual por **Eddy Santiago Giraldo Ceballos** y se utilizó Git y GitHub para almacenar y gestionar el código fuente.
+
+Durante el desarrollo no se realizaron commits intermedios de forma sistemática. Por esta razón, el historial de versiones no refleja individualmente cada etapa de implementación, corrección y documentación del proyecto.
+
+El repositorio permite consultar los archivos del proyecto y su documentación en la rama `taller-2`.
+
+Las principales actividades realizadas fueron:
+
+* Desarrollo de la API REST utilizando FastAPI.
+* Configuración e integración de PostgreSQL para el almacenamiento de las mediciones.
+* Implementación del consumidor MQTT para la recepción y validación de datos de los sensores.
+* Implementación y verificación de los endpoints de la API.
+* Elaboración del informe de evidencias y documentación del proyecto.
+* Ejecución de las pruebas automatizadas, con un resultado de **20 pruebas aprobadas**.
+
 
 ## 9. Conclusiones
 
