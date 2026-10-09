@@ -7,7 +7,7 @@
 | Campo | Valor |
 |---|---|
 | Nombre del proyecto | API IoT — adquisición, validación y consulta de mediciones |
-| Integrantes | Estudiantes de Desarrollo de Software |
+| Integrantes | Eddy Santiago Giraldo Ceballos |
 | Asignatura | Aplicaciones y Servicios Web |
 | Fecha | 09 de octubre de 2026 |
 | Sensor asignado | `ENV-003` |
@@ -96,7 +96,7 @@
 | # | Prueba | Estado | Implementación / Archivo |
 |---|---|---|---|
 | 1 | Recepción MQTT desde el tópico asignado | ✅ | `app/mqtt/client.py` (`on_message`) |
-| 2 | Medición válida almacenada en PostgreSQL | ✅ | `app/crud/medicion.py` (`crear_medicion`) |
+| 2 | Medición válida almacenada en PostgreSQL | ✅ | `app/crud/medicion.py` (`insertar_mediciones`) |
 | 3 | Sensor inexistente → mensaje rechazado | ✅ | `app/mqtt/client.py` (`validar_payload`) |
 | 4 | Unidad incorrecta → mensaje rechazado | ✅ | `app/mqtt/client.py` (`validar_payload`) |
 | 5 | Tipo de dato incorrecto → mensaje rechazado | ✅ | `app/mqtt/client.py` (`validar_payload`) |

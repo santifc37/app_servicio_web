@@ -53,15 +53,16 @@ mediciones antes=14754 después=14754 -> no almacenado OK
 
 ## 4. Unidad incorrecta
 
-- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"temperature": {"value": 24.6, "unit": "ZZ"}}}`
+- **Entrada:** `{"sensor_id": "ENV-003", "timestamp": "2026-10-09T14:00:00Z", "measurements": {"wind_speed": {"value": 12.5, "unit": "km/h"}}}`
 - **Resultado:**
 
 ```
-RECHAZADO: Magnitud 'temperature' no pertenece al sensor 'ENV-003'
+RECHAZADO: Unidad 'km/h' no válida para la magnitud 'wind_speed' (esperada: 'm/s')
 mediciones antes=14754 después=14754 -> no almacenado OK
 ```
+
 - **Implementación:** `app/mqtt/client.py` — `validar_payload` / `construir_mediciones`
-- **Explicación:** El mensaje se rechaza y se registra; no se inserta ninguna fila.
+- **Explicación:** La unidad enviada (`km/h`) no coincide con la unidad configurada en PostgreSQL para la magnitud `wind_speed` del sensor `ENV-003` (`m/s`), por lo que el mensaje es rechazado y no se insertan registros.
 
 ## 5. Tipo de dato incorrecto
 
